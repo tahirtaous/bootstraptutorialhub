@@ -19,3 +19,23 @@ You need basic knowledge of HTML and CSS to use Bootstrap framework. Creating re
 Bootstrap helps you to build responsive websites without learning all the Responsive design best practices and techniques from scratch.
 
 Official website: [getbootstrap.com](http://getbootstrap.com/)
+
+## Bootstrap in your language: Translations
+
+Bootstrap has a big community and some of the community member have translated Bootstrap's documentation into various languages.
+
+None are officially supported and they may not always be up to date.
+
+- Bootstrap 中文文档 (Chinese)
+- Bootstrap 3 中文手冊 (Chinese (Traditional))
+- Bootstrap på Dansk (Danish)
+- Bootstrap en Français (French)
+- Bootstrap auf Deutsch (German)
+- Bootstrap in Italiano (Italian)
+- Bootstrap 한국어 (Korean)
+- Bootstrap em Português do Brasil (Brazilian Portuguese)
+- Bootstrap по-русски (Russian)
+- Bootstrap en Español (Spanish)
+- Türkçe Bootstrap (Turkish)
+- Bootstrap українською (Ukrainian)
+- Bootstrap bằng tiếng Việt (Vietnamese)
