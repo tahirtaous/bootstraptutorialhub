@@ -9,7 +9,7 @@ layout: default
   <ul class="post-list row">
    <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
       
       <h2>
         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

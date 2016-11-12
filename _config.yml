@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bootstraptutorialhub.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tahirtaous
-github_username:  tahirtaous
+twitter_username: TahirTaous
+github_username:  TahirTaous
 
 # Build settings
 markdown: kramdown
@@ -46,5 +46,5 @@ permalink: /:title
 # 6. Add gem "jekyll-paginate" in gemfile
 # 7. Add - jekyll-paginate in config file
 # 8. use following code to chnage nuber of post to display on each paginated page
-paginate: 1
+paginate: 10
 paginate_path: /page:num
