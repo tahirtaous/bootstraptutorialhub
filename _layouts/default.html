@@ -16,9 +16,11 @@
 
       <div class="PageNavigation">
       <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
-        {% if page.previous.url %}
+        {% if post.previous.url %}
+          <a class="prev" href="{{site.baseurl.post.previous.url}}">&laquo; {{post.previous.title}}</a>
         {% endif %}
-        {% if page.next.url %}
+        {% if post.next.url %}
+          <a class="next" href="{{site.baseurl.post.next.url}}">{{post.next.title}} &raquo;</a>
         {% endif %}
       </div>
     </main>
