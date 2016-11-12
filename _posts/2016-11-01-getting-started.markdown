@@ -35,6 +35,8 @@ if you are always connected to Internet, you can use Bootstrap CDN version, but 
 
 > If you want to see all examples and documentation, click on DOWNLOAD Source button. 
 
+Extract all files.
+
 {% highlight css %}
 style{
     color: red;

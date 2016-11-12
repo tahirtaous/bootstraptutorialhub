@@ -1,12 +1,14 @@
 ---
 layout: page
-title: NameCheap offers
+title: Offers
 permalink: /offers/
-excerpt: Find latest NameCheap coupon code and NameCheap promo code for November 2016.
+excerpt: Find latest discount coupon codes.
 exclude: false
 ---
 
-here you can find disocunt coupn codes and promo codes for <a href="namecheap.com" rel="nofollow" onmousedown="this.href='https://www.namecheap.com/?aff=65493';" title="Register Domain name and Buy Affordable Hosting">NameCheap.com</a>.
+## What We Recommend
+
+Here you can find disocunt coupon codes and promo codes for <a href="namecheap.com" rel="nofollow" onmousedown="this.href='https://www.namecheap.com/?aff=65493';" title="Register Domain name and Buy Affordable Hosting">NameCheap.com</a>.
 
 <div class="row">
 
