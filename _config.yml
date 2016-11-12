@@ -17,10 +17,10 @@ title: BootstrapTutorialHub.com
 # email: contact@bootstraptutorialhub.com
 description: > # this means to ignore newlines until "baseurl:"
   Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
-baseurl: "/bootstraptutorialhub" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bootstraptutorialhub.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: tahirtaous
-# github_username:  tahirtaous
+twitter_username: tahirtaous
+github_username:  tahirtaous
 
 # Build settings
 markdown: kramdown

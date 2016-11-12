@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/bootstraptutorialhub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/bootstraptutorialhub/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bootstraptutorialhub/" rel="alternate" type="text/html" /><updated>2016-11-12T23:09:50+05:00</updated><id>http://localhost:4000/bootstraptutorialhub//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/bootstraptutorialhub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/bootstraptutorialhub/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bootstraptutorialhub/" rel="alternate" type="text/html" /><updated>2016-11-12T23:48:11+05:00</updated><id>http://localhost:4000/bootstraptutorialhub//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
 </subtitle><entry><title type="html">Getting Started With Boostrap Tutorial for beginners</title><link href="http://localhost:4000/bootstraptutorialhub/getting-started" rel="alternate" type="text/html" title="Getting Started With Boostrap Tutorial for beginners" /><published>2016-11-11T10:55:54+05:00</published><updated>2016-11-11T10:55:54+05:00</updated><id>http://localhost:4000/bootstraptutorialhub/getting-started</id><content type="html" xml:base="http://localhost:4000/bootstraptutorialhub/getting-started">&lt;p&gt;&lt;img src=&quot;/bootstraptutorialhub/assets/images/getting-started-with-bootstrap.png&quot; alt=&quot;Getting Started With Boostrap Tutorial for beginners&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To use Bootstrap framework, basic understanding of HTML and CSS is necessary. But if you don’t anything about HTML, CSS, you should learn basics of HTML and CSS.&lt;/p&gt;
@@ -185,4 +185,26 @@ Two column area
 
 &lt;p&gt;Bootstrap helps you to build responsive websites without learning all the Responsive design best practices and techniques from scratch.&lt;/p&gt;
 
-&lt;p&gt;Official website: &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;getbootstrap.com&lt;/a&gt;&lt;/p&gt;</content><author><name>Tahir Taous</name></author><summary type="html">BootStrap is a CSS framework to create responsive and mobile friendly without learning advance techniques.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bootstraptutorialhub/assets/images/what-is-bootstrap-framework.png" /></entry></feed>
+&lt;p&gt;Official website: &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;getbootstrap.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bootstrap-in-your-language-translations&quot;&gt;Bootstrap in your language: Translations&lt;/h2&gt;
+
+&lt;p&gt;Bootstrap has a big community and some of the community member have translated Bootstrap’s documentation into various languages.&lt;/p&gt;
+
+&lt;p&gt;None are officially supported and they may not always be up to date.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bootstrap 中文文档 (Chinese)&lt;/li&gt;
+  &lt;li&gt;Bootstrap 3 中文手冊 (Chinese (Traditional))&lt;/li&gt;
+  &lt;li&gt;Bootstrap på Dansk (Danish)&lt;/li&gt;
+  &lt;li&gt;Bootstrap en Français (French)&lt;/li&gt;
+  &lt;li&gt;Bootstrap auf Deutsch (German)&lt;/li&gt;
+  &lt;li&gt;Bootstrap in Italiano (Italian)&lt;/li&gt;
+  &lt;li&gt;Bootstrap 한국어 (Korean)&lt;/li&gt;
+  &lt;li&gt;Bootstrap em Português do Brasil (Brazilian Portuguese)&lt;/li&gt;
+  &lt;li&gt;Bootstrap по-русски (Russian)&lt;/li&gt;
+  &lt;li&gt;Bootstrap en Español (Spanish)&lt;/li&gt;
+  &lt;li&gt;Türkçe Bootstrap (Turkish)&lt;/li&gt;
+  &lt;li&gt;Bootstrap українською (Ukrainian)&lt;/li&gt;
+  &lt;li&gt;Bootstrap bằng tiếng Việt (Vietnamese)&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">BootStrap is a CSS framework to create responsive and mobile friendly without learning advance techniques.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bootstraptutorialhub/assets/images/what-is-bootstrap-framework.png" /></entry></feed>
