@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-12T19:25:22+05:00</updated><id>http://localhost:4000//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+</subtitle><entry><title type="html">Getting Started With Boostrap Tutorial for beginners</title><link href="http://localhost:4000/getting-started" rel="alternate" type="text/html" title="Getting Started With Boostrap Tutorial for beginners" /><published>2016-11-11T10:55:54+05:00</published><updated>2016-11-11T10:55:54+05:00</updated><id>http://localhost:4000/getting-started</id><content type="html" xml:base="http://localhost:4000/getting-started">&lt;p&gt;&lt;img src=&quot;/assets/images/getting-started-with-bootstrap.png&quot; alt=&quot;Getting Started With Boostrap Tutorial for beginners&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To use Bootstrap framework, basic understanding of HTML and CSS is necessary. But if you don’t anything about HTML, CSS, you should learn basics of HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;There are many free ebooks available to learn HTML and CSS. Read this tutorials to find a list of &lt;a href=&quot;http://justlearnwp.com/free-web-design-books-pdf-download/&quot;&gt;Free HTML and CSS Books&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;download-and-set-up-boostrap&quot;&gt;Download and Set up Boostrap&lt;/h2&gt;
+
+&lt;p&gt;One of the best way to learn and use bootstrap is, download Bootstrap framework and practice.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;getbootstrap.com&lt;/a&gt; and click on Download Boostrap button to downlod all the code.&lt;/p&gt;
+
+&lt;p&gt;When toy will click on Download Bootstrap button, you will be redirected to &lt;em&gt;Getting Started&lt;/em&gt; http://getbootstrap.com/getting-started/#download page.&lt;/p&gt;
+
+&lt;p&gt;You will see different download and install options.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Download Bootstrap&lt;/strong&gt; : Compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.&lt;/li&gt;
+  &lt;li&gt;Download Source&lt;/li&gt;
+  &lt;li&gt;Download Sass&lt;/li&gt;
+  &lt;li&gt;Bootstrap CDN&lt;/li&gt;
+  &lt;li&gt;Install with Bower&lt;/li&gt;
+  &lt;li&gt;Install with npm&lt;/li&gt;
+  &lt;li&gt;Install with Composer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;if you are always connected to Internet, you can use Bootstrap CDN version, but I recommend Compiled and minified CSS, JavaScript, and fonts version.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you want to see all examples and documentation, click on DOWNLOAD Source button.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><summary type="html">In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/getting-started-with-bootstrap.png" /></entry><entry><title type="html">What is Bootstrap</title><link href="http://localhost:4000/what-is-bootstrap" rel="alternate" type="text/html" title="What is Bootstrap" /><published>2016-11-11T10:49:54+05:00</published><updated>2016-11-11T10:49:54+05:00</updated><id>http://localhost:4000/what-is-bootstrap</id><content type="html" xml:base="http://localhost:4000/what-is-bootstrap">&lt;p&gt;&lt;img src=&quot;/assets/images/what-is-bootstrap-framework.png&quot; alt=&quot;what is bootstrap framework&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An attractive, functioning website requires structure style and behavior and bootstrap is a front-end development framework, which helps you to build attractive websites.&lt;/p&gt;
+
+&lt;p&gt;Bootstrap is the most popular front-end development framework to build mobile friendly and fully responsive websites.&lt;/p&gt;
+
+&lt;p&gt;You need basic knowledge of HTML and CSS to use Bootstrap framework. Creating responsive websites is not easy, especially if you are a beginner front end developer.&lt;/p&gt;
+
+&lt;p&gt;Bootstrap helps you to build responsive websites without learning all the Responsive design best practices and techniques from scratch.&lt;/p&gt;
+
+&lt;p&gt;Official website: &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;getbootstrap.com&lt;/a&gt;&lt;/p&gt;</content><author><name>Tahir Taous</name></author><summary type="html">BootStrap is a CSS framework to create responsive and mobile friendly without learning advance techniques.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/what-is-bootstrap-framework.png" /></entry></feed>
