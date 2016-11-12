@@ -28,9 +28,23 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
 
 highlighter: rouge
 permalink: /:title
+
+## if you want to use Pagination on your jekyll blog, install paginate plugin.
+# http://jekyllrb.com/docs/pagination/
+# 1. To enable pagination on jekyll website, RENAME index.md to indexold.md 
+# 2. copy home.html to route folder of local site from _layouts folder of MINIMA THEME.
+# 3. rename home.html to index.html
+# 4. replace this line {% for post in site.posts %} WITH {% for post in paginator.posts %}
+# 5. copy <!-- Pagination links --> code from http://jekyllrb.com/docs/pagination/ and paste below loop 
+# 6. Add gem "jekyll-paginate" in gemfile
+# 7. Add - jekyll-paginate in config file
+# 8. use following code to chnage nuber of post to display on each paginated page
+paginate: 1
+paginate_path: /page:num

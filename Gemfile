@@ -26,3 +26,6 @@ end
 
 # https://github.com/jekyll/jekyll-seo-tag 
 gem 'jekyll-seo-tag'
+
+
+gem 'jekyll-paginate'
