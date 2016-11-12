@@ -10,6 +10,16 @@
   <meta name="description" content="In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.">
 
 
+<!-- Bootstrap CDN -->
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="/bootstraptutorialhub/assets/main.css">
@@ -166,14 +176,102 @@
 <p>if you are always connected to Internet, you can use Bootstrap CDN version, but I recommend Compiled and minified CSS, JavaScript, and fonts version.</p>
 
 <blockquote>
-  <p>If you want to see all examples and documentation, click on DOWNLOAD Source button.</p>
+  <p>If you want to see all examples and documentation, click on DOWNLOAD SOURCE button.</p>
 </blockquote>
 
-<p>Extract all files.</p>
+<p>Use any program to extract all files from the zipped archive, you just downloaded. Name of extracted folder will be something like <code class="highlighter-rouge">bootstrap-3.3.7-dist</code>. Here 3.3.7 is the version number of Bootstrap.</p>
 
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">style</span><span class="p">{</span>
-    <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
+<p>Under primary folder, you can see three sub folders.</p>
+
+<ul>
+  <li>css</li>
+  <li>fonts</li>
+  <li>js</li>
+</ul>
+
+<p>Above folder contains all the Bootstrap CSS, JavaScript and Icon font files. In this folder create a new file and save it is <code class="highlighter-rouge">index.html</code>. This will be the main page of your site.</p>
+
+<p>I use <a href="https://www.sublimetext.com/">SublimeText</a> a very popular code editor to edit HTML, CSS and other files. Code Editors like sublime text offer syntax highlighting, error reporting, auto complete and other advance features.</p>
+
+<p>Now open Index.html file and add following <a href="http://getbootstrap.com/getting-started/#template">basic</a> page markup in this file.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">&lt;!</span><span class="nt">DOCTYPE</span> <span class="nt">html</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nt">html</span> <span class="nt">lang</span><span class="o">=</span><span class="s1">"en"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nt">head</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">meta</span> <span class="nt">charset</span><span class="o">=</span><span class="s1">"utf-8"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">meta</span> <span class="nt">http-equiv</span><span class="o">=</span><span class="s1">"X-UA-Compatible"</span> <span class="nt">content</span><span class="o">=</span><span class="s1">"IE=edge"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">meta</span> <span class="nt">name</span><span class="o">=</span><span class="s1">"viewport"</span> <span class="nt">content</span><span class="o">=</span><span class="s1">"width=device-width, initial-scale=1"</span><span class="o">&gt;</span>
+    <span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">The</span> <span class="nt">above</span> <span class="nt">3</span> <span class="nt">meta</span> <span class="nt">tags</span> <span class="o">*</span><span class="nt">must</span><span class="o">*</span> <span class="nt">come</span> <span class="nt">first</span> <span class="nt">in</span> <span class="nt">the</span> <span class="nt">head</span><span class="o">;</span> <span class="nt">any</span> <span class="nt">other</span> <span class="nt">head</span> <span class="nt">content</span> <span class="nt">must</span> <span class="nt">come</span> <span class="o">*</span><span class="nt">after</span><span class="o">*</span> <span class="nt">these</span> <span class="nt">tags</span> <span class="nt">--</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">title</span><span class="o">&gt;</span><span class="nt">Bootstrap</span> <span class="nt">101</span> <span class="nt">Template</span><span class="o">&lt;/</span><span class="nt">title</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">Bootstrap</span> <span class="nt">--</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">link</span> <span class="nt">href</span><span class="o">=</span><span class="s1">"css/bootstrap.min.css"</span> <span class="nt">rel</span><span class="o">=</span><span class="s1">"stylesheet"</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">HTML5</span> <span class="nt">shim</span> <span class="nt">and</span> <span class="nt">Respond</span><span class="nc">.js</span> <span class="nt">for</span> <span class="nt">IE8</span> <span class="nt">support</span> <span class="nt">of</span> <span class="nt">HTML5</span> <span class="nt">elements</span> <span class="nt">and</span> <span class="nt">media</span> <span class="nt">queries</span> <span class="nt">--</span><span class="o">&gt;</span>
+    <span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">WARNING</span><span class="o">:</span> <span class="nt">Respond</span><span class="nc">.js</span> <span class="nt">doesn</span><span class="s2">'t work if you view the page via file:// --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"&gt;&lt;/script&gt;
+      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+    &lt;!-- jQuery (necessary for Bootstrap'</span><span class="nt">s</span> <span class="nt">JavaScript</span> <span class="nt">plugins</span><span class="o">)</span> <span class="nt">--</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">script</span> <span class="nt">src</span><span class="o">=</span><span class="s1">"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"</span><span class="o">&gt;&lt;/</span><span class="nt">script</span><span class="o">&gt;</span>
+    <span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">Include</span> <span class="nt">all</span> <span class="nt">compiled</span> <span class="nt">plugins</span> <span class="o">(</span><span class="nt">below</span><span class="o">),</span> <span class="nt">or</span> <span class="nt">include</span> <span class="nt">individual</span> <span class="nt">files</span> <span class="nt">as</span> <span class="nt">needed</span> <span class="nt">--</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">script</span> <span class="nt">src</span><span class="o">=</span><span class="s1">"js/bootstrap.min.js"</span><span class="o">&gt;&lt;/</span><span class="nt">script</span><span class="o">&gt;</span>
+  <span class="o">&lt;/</span><span class="nt">body</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="nt">html</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Open this file in your favorite browser. Chrome and Firefox are very popular browser.</p>
+
+<p>Now lets create a very simple two-column website with primary navigation and a featured content area.</p>
+
+<p>Replace <code class="highlighter-rouge">&lt;h1&gt;Hello, world!&lt;/h1&gt;</code> with following markup.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+
+nav here
+
+feature area
+
+Two column area
+
+<span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- end ##container --&gt;</span></code></pre></figure>
+
+<p>Bootstrap has a responsive grid system. With this grid system, you can create multi-column layouts quickly and easily.</p>
+
+<p>In above example, first we have a div <code class="highlighter-rouge">&lt;div class="container"&gt;</code> with class of container. This class creates a outer container for all site content.</p>
+
+<h3 id="main-navigation">Main Navigation</h3>
+
+<p>First of all we are going to add primary navigation menu to our site. Replace <strong>nav here</strong> with the following markup.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav nav-tabs"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"index.html"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"about.html"</span><span class="nt">&gt;</span>about<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"contact.html"</span><span class="nt">&gt;</span>contact<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+
+<p>save your changes and open your file in browser. You can see that HOME link is highlighted because we have used <code class="highlighter-rouge">class="active"</code> on th first link.</p>
+
+<h2 id="featured-content-area">Featured content area</h2>
+
+<h2 id="two-columns-layout">Two columns layout</h2>
+
+<p>To create multi-columns layout, you can use <code class="highlighter-rouge">col-md-*</code> class. You can replace <code class="highlighter-rouge">*</code> with your desired number from 1-12, because bootstrap has 12 column grid system.</p>
+
+<p>If you want two column layout, first wider column for primary content area and second small column for sidebar content, You need to use following markup.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-8"</span><span class="nt">&gt;</span>
+      Wider column for primary content area
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>
+      column for sidebar content area.
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- end ##row --&gt;</span></code></pre></figure>
 
   </div>
 
@@ -183,6 +281,7 @@
 
       <div class="PageNavigation">
       <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+      <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
         
           <a class="prev" href="">&laquo; What is Bootstrap</a>
         
