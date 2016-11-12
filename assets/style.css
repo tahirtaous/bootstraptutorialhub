@@ -103,6 +103,8 @@ li {
     margin-bottom: 8px;
 }
 
+
+/*Max-width for Bootstrap container class*/
 .container{
   width: 1100px;
   max-width: 100%;
