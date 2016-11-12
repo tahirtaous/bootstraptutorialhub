@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/bootstraptutorialhub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/bootstraptutorialhub/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bootstraptutorialhub/" rel="alternate" type="text/html" /><updated>2016-11-12T21:38:40+05:00</updated><id>http://localhost:4000/bootstraptutorialhub//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/bootstraptutorialhub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/bootstraptutorialhub/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bootstraptutorialhub/" rel="alternate" type="text/html" /><updated>2016-11-12T22:24:47+05:00</updated><id>http://localhost:4000/bootstraptutorialhub//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
 </subtitle><entry><title type="html">Getting Started With Boostrap Tutorial for beginners</title><link href="http://localhost:4000/bootstraptutorialhub/getting-started" rel="alternate" type="text/html" title="Getting Started With Boostrap Tutorial for beginners" /><published>2016-11-11T10:55:54+05:00</published><updated>2016-11-11T10:55:54+05:00</updated><id>http://localhost:4000/bootstraptutorialhub/getting-started</id><content type="html" xml:base="http://localhost:4000/bootstraptutorialhub/getting-started">&lt;p&gt;&lt;img src=&quot;/bootstraptutorialhub/assets/images/getting-started-with-bootstrap.png&quot; alt=&quot;Getting Started With Boostrap Tutorial for beginners&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To use Bootstrap framework, basic understanding of HTML and CSS is necessary. But if you don’t anything about HTML, CSS, you should learn basics of HTML and CSS.&lt;/p&gt;
@@ -106,13 +106,42 @@ Two column area
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contact.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;contact&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;h4 id=&quot;result&quot;&gt;Result&lt;/h4&gt;
+
+&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;about&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;save your changes and open your file in browser. You can see that HOME link is highlighted because we have used &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;active&quot;&lt;/code&gt; on th first link.&lt;/p&gt;
 
 &lt;h2 id=&quot;featured-content-area&quot;&gt;Featured content area&lt;/h2&gt;
 
+&lt;p&gt;Now lets add featured content area. Bootstrap has a &lt;code class=&quot;highlighter-rouge&quot;&gt;.jumbotron&lt;/code&gt; class, which you can use to create a featured content area where, which you can use to showcase key content on your site.&lt;/p&gt;
+
+&lt;p&gt;Now replace &lt;code class=&quot;highlighter-rouge&quot;&gt;feature area&lt;/code&gt; with the following markup.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jumbotron&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;My Awesome Product&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-primary btn-lg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Learn more&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;jumbotron&quot;&gt;
+  &lt;h1&gt;My Awesome Product&lt;/h1&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ea nihil, ipsa itaque obcaecati iure architecto sequi distinctio dicta.&lt;/p&gt;
+  &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&quot;two-columns-layout&quot;&gt;Two columns layout&lt;/h2&gt;
 
-&lt;p&gt;To create multi-columns layout, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;col-md-*&lt;/code&gt; class. You can replace &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; with your desired number from 1-12, because bootstrap has 12 column grid system.&lt;/p&gt;
+&lt;p&gt;To create multi-columns layout, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;col-md-*&lt;/code&gt; class (md= medium grid). You can replace &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; with your desired number from 1-12, because bootstrap has 12 column grid system.&lt;/p&gt;
 
 &lt;p&gt;If you want two column layout, first wider column for primary content area and second small column for sidebar content, You need to use following markup.&lt;/p&gt;
 
@@ -123,7 +152,30 @@ Two column area
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
       column for sidebar content area.
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- end ##row --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><summary type="html">In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bootstraptutorialhub/assets/images/getting-started-with-bootstrap.png" /></entry><entry><title type="html">What is Bootstrap</title><link href="http://localhost:4000/bootstraptutorialhub/what-is-bootstrap" rel="alternate" type="text/html" title="What is Bootstrap" /><published>2016-11-11T10:49:54+05:00</published><updated>2016-11-11T10:49:54+05:00</updated><id>http://localhost:4000/bootstraptutorialhub/what-is-bootstrap</id><content type="html" xml:base="http://localhost:4000/bootstraptutorialhub/what-is-bootstrap">&lt;p&gt;&lt;img src=&quot;/bootstraptutorialhub/assets/images/what-is-bootstrap-framework.png&quot; alt=&quot;what is bootstrap framework&quot; /&gt;&lt;/p&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- end ##row --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Above code will generate two column layout for your responsive website. Here you can see the result.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+    &lt;h3&gt;Primary Content&lt;/h3&gt;
+      Wider column for primary content area. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptates, molestiae temporibus esse laboriosam perferendis tempora eligendi culpa reiciendis quod, sit dolor!
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+    &lt;h3&gt;Sidebar&lt;/h3&gt;
+      column for sidebar content area.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- end ##row --&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;thats-all&quot;&gt;That’s all&lt;/h2&gt;
+
+&lt;p&gt;You have created your first responsive website with Bootstrap framework. You can also download final code files of this tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/bootstraptutorialhub/assets/files/getting-started-bootstrap-files.zip&quot;&gt;Download Tutorial Files&lt;/a&gt;&lt;/p&gt;</content><summary type="html">In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bootstraptutorialhub/assets/images/getting-started-with-bootstrap.png" /></entry><entry><title type="html">What is Bootstrap</title><link href="http://localhost:4000/bootstraptutorialhub/what-is-bootstrap" rel="alternate" type="text/html" title="What is Bootstrap" /><published>2016-11-11T10:49:54+05:00</published><updated>2016-11-11T10:49:54+05:00</updated><id>http://localhost:4000/bootstraptutorialhub/what-is-bootstrap</id><content type="html" xml:base="http://localhost:4000/bootstraptutorialhub/what-is-bootstrap">&lt;p&gt;&lt;img src=&quot;/bootstraptutorialhub/assets/images/what-is-bootstrap-framework.png&quot; alt=&quot;what is bootstrap framework&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An attractive, functioning website requires structure style and behavior and bootstrap is a front-end development framework, which helps you to build attractive websites.&lt;/p&gt;
 

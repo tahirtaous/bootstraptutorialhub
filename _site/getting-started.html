@@ -254,13 +254,42 @@ Two column area
   <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"contact.html"</span><span class="nt">&gt;</span>contact<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></code></pre></figure>
 
+<h4 id="result">Result</h4>
+
+<ul class="nav nav-tabs">
+  <li class="active"><a href="index.html">Home</a></li>
+  <li><a href="about.html">about</a></li>
+  <li><a href="contact.html">contact</a></li>
+</ul>
+
 <p>save your changes and open your file in browser. You can see that HOME link is highlighted because we have used <code class="highlighter-rouge">class="active"</code> on th first link.</p>
 
 <h2 id="featured-content-area">Featured content area</h2>
 
+<p>Now lets add featured content area. Bootstrap has a <code class="highlighter-rouge">.jumbotron</code> class, which you can use to create a featured content area where, which you can use to showcase key content on your site.</p>
+
+<p>Now replace <code class="highlighter-rouge">feature area</code> with the following markup.</p>
+
+<p><strong>Code</strong></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"jumbotron"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>My Awesome Product<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>Learn more<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p><strong>Result</strong></p>
+<div class="container">
+    <div class="jumbotron">
+  <h1>My Awesome Product</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ea nihil, ipsa itaque obcaecati iure architecto sequi distinctio dicta.</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+</div>
+
 <h2 id="two-columns-layout">Two columns layout</h2>
 
-<p>To create multi-columns layout, you can use <code class="highlighter-rouge">col-md-*</code> class. You can replace <code class="highlighter-rouge">*</code> with your desired number from 1-12, because bootstrap has 12 column grid system.</p>
+<p>To create multi-columns layout, you can use <code class="highlighter-rouge">col-md-*</code> class (md= medium grid). You can replace <code class="highlighter-rouge">*</code> with your desired number from 1-12, because bootstrap has 12 column grid system.</p>
 
 <p>If you want two column layout, first wider column for primary content area and second small column for sidebar content, You need to use following markup.</p>
 
@@ -272,6 +301,29 @@ Two column area
       column for sidebar content area.
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- end ##row --&gt;</span></code></pre></figure>
+
+<p>Above code will generate two column layout for your responsive website. Here you can see the result.</p>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+    <h3>Primary Content</h3>
+      Wider column for primary content area. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptates, molestiae temporibus esse laboriosam perferendis tempora eligendi culpa reiciendis quod, sit dolor!
+    </div>
+    <div class="col-md-4">
+    <h3>Sidebar</h3>
+      column for sidebar content area.
+    </div>
+</div>
+<p><!-- end ##row --></p>
+<hr />
+
+<h2 id="thats-all">That’s all</h2>
+
+<p>You have created your first responsive website with Bootstrap framework. You can also download final code files of this tutorial.</p>
+
+<p><a href="/bootstraptutorialhub/assets/files/getting-started-bootstrap-files.zip">Download Tutorial Files</a></p>
 
   </div>
 

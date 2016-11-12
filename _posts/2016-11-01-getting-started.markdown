@@ -114,18 +114,48 @@ First of all we are going to add primary navigation menu to our site. Replace **
 </ul>
 {% endhighlight %}
 
+#### Result
+
+<ul class="nav nav-tabs">
+  <li class="active"><a href="index.html">Home</a></li>
+  <li><a href="about.html">about</a></li>
+  <li><a href="contact.html">contact</a></li>
+</ul>
+
 save your changes and open your file in browser. You can see that HOME link is highlighted because we have used `class="active"` on th first link.
 
 ## Featured content area
 
+Now lets add featured content area. Bootstrap has a `.jumbotron` class, which you can use to create a featured content area where, which you can use to showcase key content on your site.
+
+Now replace `feature area` with the following markup.
+
+**Code**
+
+{% highlight html %}
+<div class="jumbotron">
+  <h1>My Awesome Product</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+{% endhighlight %}
+
+**Result**
+<div class="container">
+    <div class="jumbotron">
+  <h1>My Awesome Product</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ea nihil, ipsa itaque obcaecati iure architecto sequi distinctio dicta.</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+</div>
+
 ## Two columns layout
 
-To create multi-columns layout, you can use `col-md-*` class. You can replace `*` with your desired number from 1-12, because bootstrap has 12 column grid system.
+To create multi-columns layout, you can use `col-md-*` class (md= medium grid). You can replace `*` with your desired number from 1-12, because bootstrap has 12 column grid system.
 
 If you want two column layout, first wider column for primary content area and second small column for sidebar content, You need to use following markup.
 
 {% highlight html %}
-
 <div class="row">
     <div class="col-md-8">
       Wider column for primary content area
@@ -135,3 +165,24 @@ If you want two column layout, first wider column for primary content area and s
     </div>
 </div> <!-- end ##row -->
 {% endhighlight %}
+
+Above code will generate two column layout for your responsive website. Here you can see the result.
+
+<hr>
+<div class="row">
+    <div class="col-md-8">
+    <h3>Primary Content</h3>
+      Wider column for primary content area. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptates, molestiae temporibus esse laboriosam perferendis tempora eligendi culpa reiciendis quod, sit dolor!
+    </div>
+    <div class="col-md-4">
+    <h3>Sidebar</h3>
+      column for sidebar content area.
+    </div>
+</div> <!-- end ##row -->
+<hr>
+
+## That's all
+
+You have created your first responsive website with Bootstrap framework. You can also download final code files of this tutorial.
+
+<a href="{{site.baseurl}}/assets/files/getting-started-bootstrap-files.zip">Download Tutorial Files</a>
