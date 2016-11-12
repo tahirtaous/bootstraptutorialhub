@@ -185,4 +185,4 @@ Above code will generate two column layout for your responsive website. Here you
 
 You have created your first responsive website with Bootstrap framework. You can also download final code files of this tutorial.
 
-<a href="{{site.baseurl}}/assets/files/getting-started-bootstrap-files.zip">Download Tutorial Files</a>
+<a href="{{site.baseurl}}/assets/files/getting-started-bootstrap-files.zip">Download Tutorial File</a>
