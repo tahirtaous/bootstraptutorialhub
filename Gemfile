@@ -29,3 +29,7 @@ gem 'jekyll-seo-tag'
 
 
 gem 'jekyll-paginate'
+
+
+# https://github.com/jekyll/jekyll-sitemap
+gem 'jekyll-sitemap'

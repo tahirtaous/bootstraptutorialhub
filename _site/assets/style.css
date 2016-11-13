@@ -109,3 +109,8 @@ li {
   width: 1100px;
   max-width: 100%;
 }
+
+/*Add spacing betwwen post titles on home page*/
+.post-list h2 {
+    margin: .7em 0;
+}
