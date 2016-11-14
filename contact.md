@@ -13,12 +13,12 @@ exclude: false
 
   <div class="form-group">
     <label for="senderName">Your Name</label>
-    <input type="text" class="form-control" id="senderName" placeholder="Your Name">
+    <input type="text" name="name" class="form-control" id="senderName" placeholder="Your Name">
   </div>
 
   <div class="form-group">
     <label for="senderEmail">Email address</label>
-    <input type="email" class="form-control" id="senderEmail" placeholder="Your Email here">
+    <input type="email" name="email" class="form-control" id="senderEmail" placeholder="Your Email here">
   </div>
   <div class="form-group">
   <label for="senderEmail">Type Your Message</label>
