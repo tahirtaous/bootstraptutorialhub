@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Getting Started With Boostrap Tutorial for beginners
+title: Getting Started With Bootstrap Tutorial for beginners
 date: 2016-11-11 10:55:54 +0500
 categories: bootstrap
-image: assets/images/getting-started-with-bootstrap.png
+image: /assets/images/getting-started-with-bootstrap.png
 excerpt: In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.
 ---
 

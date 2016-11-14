@@ -3,7 +3,7 @@ layout: post
 title: What is Bootstrap
 date: 2016-11-11 10:49:54 +0500
 categories: bootstrap
-image: assets/images/what-is-bootstrap-framework.png
+image: /assets/images/what-is-bootstrap-framework.png
 excerpt: BootStrap is a CSS framework to create responsive and mobile friendly without learning advance techniques.
 ---
 
