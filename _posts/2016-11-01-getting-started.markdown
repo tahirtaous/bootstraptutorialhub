@@ -7,17 +7,17 @@ image: /assets/images/getting-started-with-bootstrap.png
 excerpt: In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.
 ---
 
-<img src="{{site.baseurl}}/assets/images/getting-started-with-bootstrap.png" alt="Getting Started With Boostrap Tutorial for beginners">
+<img src="{{site.baseurl}}/assets/images/getting-started-with-bootstrap.png" alt="Getting Started With Bootstrap Tutorial for beginners">
 
 To use Bootstrap framework, basic understanding of HTML and CSS is necessary. But if you don't anything about HTML, CSS, you should learn basics of HTML and CSS.
 
 There are many free ebooks available to learn HTML and CSS. Read this tutorials to find a list of [Free HTML and CSS Books](http://justlearnwp.com/free-web-design-books-pdf-download/).
 
-## Download and Set up Boostrap
+## Download and Set up Bootstrap
 
 One of the best way to learn and use bootstrap is, download Bootstrap framework and practice.
 
-Visit [getbootstrap.com](http://getbootstrap.com/) and click on Download Boostrap button to downlod all the code.
+Visit [getbootstrap.com](http://getbootstrap.com/) and click on Download Bootstrap button to downlod all the code.
 
 When toy will click on Download Bootstrap button, you will be redirected to *Getting Started* http://getbootstrap.com/getting-started/#download page.
 
