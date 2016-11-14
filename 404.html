@@ -1,0 +1,29 @@
+---
+title: 404 Not Found
+exclude: true
+---
+
+  {% include head.html %}
+<hr>
+{% include header.html %}
+
+<hr>
+<div class="container">
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1><i class="fa fa-frown-o red"></i> {{page.title}}</h1>
+    <p class="lead">We couldn't find what you're looking for on <em><span id="display-domain"></span></em>.</p>
+    <p>
+    Visit <a href="{{ site.baseurl }}/">{{ site.title }}</a> to read step by step bootstrap tutorials.
+    </p>
+
+    <p>
+    <strong>Send us a Message:</strong> <a href="{{ site.baseurl }}/contact">Contact Us</a>
+    </p>
+
+    <hr>
+
+  </div> <!-- end ##jumbotron -->
+</div> <!-- end ##container -->
+
+{% include footer.html %}
