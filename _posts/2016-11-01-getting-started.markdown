@@ -9,6 +9,8 @@ excerpt: In this Bootstrap tutorial, you will learn how to get started with Boot
 
 <img src="{{site.baseurl}}/assets/images/getting-started-with-bootstrap.png" alt="Getting Started With Bootstrap Tutorial for beginners">
 
+**Requirements**: Bootstrap Version: 3.3.7
+
 To use Bootstrap framework, basic understanding of HTML and CSS is necessary. But if you don't anything about HTML, CSS, you should learn basics of HTML and CSS.
 
 There are many free ebooks available to learn HTML and CSS. Read this tutorials to find a list of [Free HTML and CSS Books](http://justlearnwp.com/free-web-design-books-pdf-download/).
@@ -107,11 +109,13 @@ In above example, first we have a div `<div class="container">` with class of co
 First of all we are going to add primary navigation menu to our site. Replace **nav here** with the following markup.
 
 {% highlight html %}
+<br>
 <ul class="nav nav-tabs">
   <li class="active"><a href="index.html">Home</a></li>
   <li><a href="about.html">about</a></li>
   <li><a href="contact.html">contact</a></li>
 </ul>
+<br>
 {% endhighlight %}
 
 #### Result
@@ -180,6 +184,14 @@ Above code will generate two column layout for your responsive website. Here you
     </div>
 </div> <!-- end ##row -->
 <hr>
+
+## Final website
+
+Here is the final version of our website. I have also changed the default font for my final website. You can add new font in your css file.
+
+<img src="{{site.baseurl}}/assets/images/bootstrap-getting-started.png" alt="Getting Started With Bootstrap 3 Tutorial">
+
+So, you can see that, it is very easy to create responsive websites with Bootstrap.
 
 ## That's all
 

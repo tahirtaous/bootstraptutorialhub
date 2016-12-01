@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google search console veriication -->
+  <meta name="google-site-verification" content="Tm05_J21gpm1FMrZ2aq7cG9VjUXeph0c5le5FcYflJ0" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87329913-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <title>A brief introduction to bootstrap 3 framework features</title>
+  <meta name="description" content="In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.">
+
+
+<!-- Bootstrap CDN - For BootstrapTutorialHub.com site -->
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="canonical" href="http://localhost:4000/bootstrap3-features">
+  <link rel="alternate" type="application/rss+xml" title="BootstrapTutorialHub.com" href="/feed.xml">
+  
+  
+
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>A brief introduction to bootstrap 3 framework features - BootstrapTutorialHub.com</title>
+<meta property="og:title" content="A brief introduction to bootstrap 3 framework features" />
+<meta name="description" content="In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework." />
+<meta property="og:description" content="In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework." />
+<link rel="canonical" href="http://localhost:4000/bootstrap3-features" />
+<meta property="og:url" content="http://localhost:4000/bootstrap3-features" />
+<meta property="og:site_name" content="BootstrapTutorialHub.com" />
+<meta property="og:image" content="http://localhost:4000/assets/images/bootstrap3-features.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-11-11T10:55:54+05:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "A brief introduction to bootstrap 3 framework features",
+    "image": "http://localhost:4000/assets/images/bootstrap3-features.png",
+    "datePublished": "2016-11-11T10:55:54+05:00",
+    "description": "In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.",
+    "url": "http://localhost:4000/bootstrap3-features"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <img alt="Brand" height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAB+0lEQVR4AcyYg5LkUBhG+1X2PdZGaW3btm3btm3bHttWrPomd1r/2Jn/VJ02TpxcH4CQ/dsuazWgzbIdrm9dZVd4pBz4zx2igTaFHrhvjneVXNHCSqIlFEjiwMyyyOBilRgGSqLNF1jnwNQdIvAt48C3IlBmHCiLQHC2zoHDu6zG1iXn6+y62ScxY9AODO6w0pvAqf23oSE4joOfH6OxfMoRnoGUm+de8wykbFt6wZtA07QwtNOqKh3ZbS3Wzz2F+1c/QJY0UCJ/J3kXWJfv7VhxCRRV1jGw7XI+gcO7rEFFRvdYxydwcPsVsC0bQdKScngt4iUTD4Fy/8p7PoHzRu1DclwmgmiqgUXjD3oTKHbAt869qdJ7l98jNTEblPTkXMwetpvnftA0LLHb4X8kiY9Kx6Q+W7wJtG0HR7fdrtYz+x7iya0vkEtUULIzCjC21wY+W/GYXusRH5kGytWTLxgEEhePPwhKYb7EK3BQuxWwTBuUkd3X8goUn6fMHLyTT+DCsQdAEXNzSMeVPAJHdF2DmH8poCREp3uwm7HsGq9J9q69iuunX6EgrwQVObjpBt8z6rdPfvE8kiiyhsvHnomrQx6BxYUyYiNS8f75H1w4/ISepDZLoDhNJ9cdNUquhRsv+6EP9oNH7Iff2A9g8h8CLt1gH0Qf9NMQAFnO60BJFQe0AAAAAElFTkSuQmCC" width="20"> <a class="site-title" href="/">BootstrapTutorialHub.com</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+
+      <!-- this is default code in Jekyll minima theme. it dynamically add new page link in menu -->
+        <!-- 
+          
+          <a class="page-link" href="/404">404 Not Found</a>
+          
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/contact/">Conatct</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/offers/">Offers</a>
+          
+        
+          
+          <a class="page-link" href="/thanks">Thank You</a>
+          
+        
+          
+        
+          
+         -->
+
+        <!-- This is new code to Excluding page from Jekyll navigation bar. source http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar -->
+        <!-- use exclude: true to exclude page from main navigatio menu -->
+
+        
+          
+        
+          
+             
+               <a class="page-link" href="/about/">About</a>
+             
+          
+        
+          
+             
+               <a class="page-link" href="/contact/">Conatct</a>
+             
+          
+        
+          
+             
+          
+        
+          
+             
+          
+        
+          
+             
+          
+        
+          
+             
+               <a class="page-link" href="/offers/">Offers</a>
+             
+          
+        
+          
+        
+          
+             
+          
+        
+          
+             
+          
+        
+
+      </div> <!-- end .trigger -->
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="container">
+  <div class="jumbotron">
+    <p>
+        Learn to build powerful mobile friendly websites with Bootstrap framework.
+    </p>
+      <!-- <h2>Buy Shared Hosting From $9.88/Year | Register Domain Name from $3.98/Year</h2>
+      <p>
+          Renewal price $38.88/year Hosting costs less than a domain! <strong>Get supercharged website hosting for under $10/first year and host up to 3 websites</strong>.
+      </p>
+      <p>
+      	<a href="http://www.tkqlhce.com/click-8100168-11202973-1477921724000" target="_top">
+  <img src="http://www.lduhtrp.net/image-8100168-11202973-1477921724000" width="728" height="90" alt="1&1 Web Hosting" border="0"/></a>
+      </p>
+      <p>
+          <button><a target="_blank" href="namecheap-shared-hosting" rel="nofollow" onmousedown="this.href='https://www.namecheap.com/hosting/shared.aspx?aff=65493';">Shared Hosting $9/Year only</a></button> <button><a href="register-domain-name" rel="nofollow" target="_blank" onmousedown="this.href='https://www.namecheap.com/domains/registration.aspx?aff=65493';">Register A Domain Name from $3.98/year</a></button>
+      </p> -->
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+
+        <main class="col-md-8" aria-label="Content">
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">A brief introduction to bootstrap 3 framework features</h1>
+    <p class="post-meta"><time datetime="2016-11-11T10:55:54+05:00" itemprop="datePublished"><!-- Nov 11, 2016 --></time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/assets/images/bootstrap3-features.png" alt="Getting Started With Bootstrap 3 Features" /></p>
+
+<p><strong>Requirements</strong>: Bootstrap Version: 3.3.7</p>
+
+<p><a href="http://getbootstrap.com/">Bootstrap</a> is a front end development framework to create beautiful, fully responsive websites. It was created by Mark Otto and Jacob Thornton, who were designer and developer at <a href="http://Twitter.com/TahirTaous">Twitter.com</a>.</p>
+
+<p>initially Bootstrap was called twitter Blueprint, when it was first created in 2010. In August, 2011 Bootstrap was released as an open-sourced framework.</p>
+
+<p>In version 2, bootstrap team added responsive functionality to the entire framework as an optional style-sheet. Version 3 of bootstrap was a major release, complete library was rewritten to make Bootstrap fully responsive by default.</p>
+
+<p>Front-end refers to the client side of website, that’s the part of a website a visitor sees in the browser. A front-end development framework is a bunch of code that is written for you already, that you can use to build great websites quickly and easily without learning a lot of code.</p>
+
+<p>Twitter Bootstrap has a <a href="http://getbootstrap.com/getting-started/">comprehensive documentation to get started</a> in English. Community members have translated Bootstrap’s documentation into Chinese, Spanish and Russian languages. None are officially supported by Twitter Bootstrap and may not always be up to date.</p>
+
+<ul>
+  <li><a href="http://v3.bootcss.com/">Bootstrap 中文文档 (Chinese)</a></li>
+  <li><a href="http://www.oneskyapp.com/ru/docs/bootstrap">Bootstrap по-русски (Russian)</a></li>
+  <li><a href="http://www.oneskyapp.com/docs/bootstrap/es">Bootstrap en Español (Spanish)</a></li>
+</ul>
+
+<h2 id="why-you-should-use-twitter-bootstrap-">Why You should use Twitter Bootstrap ?</h2>
+
+<p>You will be able to create beautiful and fully responsive website quickly and easily without learning a lot of coding, best practices and CSS3 media Queries from scratch. Media Queries used to make your static websites responsive.</p>
+
+<p>You can learn Bootstrap in a few days but it will take months or years to be an expert in HTML, CSS, Responsive design and JavaScript. Writing code is not difficult but writing bug free, semantic code with industry’s best practices that will work on different platforms is a really difficult.</p>
+
+<h2 id="twitter-bootstrap-features">Twitter Bootstrap Features</h2>
+
+<h3 id="css-styles">CSS Styles</h3>
+
+<p>Twitter Bootstrap is mobile first, it means your websites will be fully responsive on desktop, tablets and smart phones. You can make images responsive by adding <code class="highlighter-rouge">.img-responsive</code> class in bootstrap 3. For improved cross-browser rendering, Bootstrap uses <a href="http://necolas.github.io/normalize.css/">Normalize.css</a>, a project by <a href="http://nicolasgallagher.com/">Nicolas Gallagher</a> and <a href="http://www.jonathantneal.com/">Jonathan Neal</a>.</p>
+
+<h3 id="responsive-grid-system-twitter-bootstrap">Responsive Grid System Twitter Bootstrap</h3>
+
+<p>Twitter Bootstrap has a 12 column responsive, mobile first grid system, which uses predefined classes like <code class="highlighter-rouge">.container</code> to create a primary wrapper for your web page, <code class="highlighter-rouge">.row .col-xs-4, .col-md-1, col-md-4</code> and others to create grid layouts quickly and easily.</p>
+
+<p>You can use <code class="highlighter-rouge">.col-xs-*</code> to target small screen devices such as mobile phones, <code class="highlighter-rouge">.col-md-*</code> will target medium devices like tablets, desktop and <code class="highlighter-rouge">.col-lg-*</code> will target large screens. ** * ** will be replaced with your desired number for grid layout.</p>
+
+<p>For example you can create 2 column layout easily with <code class="highlighter-rouge">.col-md-8</code> for main area and <code class="highlighter-rouge">.col-md-4</code> class for sidebar.</p>
+
+<p>Twitter Bootstrap Classes are available for Mobile, tablets and desktops. With Twitter Bootstrap’s these classes you can easily create multi column layouts.</p>
+
+<p>Advance users can use LESS mixins to create more semantic layouts. For example to create a 2 column layout you can use following code.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;div class="container"&gt;
+
+    &lt;main class="row"&gt;
+
+        &lt;article class="col-md-8"&gt;
+           primary content
+        &lt;/article&gt; &lt;!--end .col-md-8--&gt;
+
+        &lt;aside class="col-md-4"&gt;
+            sidebar content
+        &lt;/aside&gt;&lt;!--end .col-md-4--&gt;
+
+    &lt;/main&gt; &lt;!--end .row--&gt;
+
+&lt;/div&gt; &lt;!--end .container--&gt;
+</code></pre>
+</div>
+
+<h3 id="typography-in-twitter-bootstrap">Typography in Twitter Bootstrap</h3>
+
+<p>Bootstrap offers many classes to style heading, text, paragraphs etc. Alignment classes <code class="highlighter-rouge">.text-left, .text-center, .text-right</code> allows you to easily realign text s with available text alignment classes.</p>
+
+<p>Emphasis classes <code class="highlighter-rouge">.text-muted, text-primary, .text-success</code> and other classes will color your text. styling for lists, block quotes, code is also available.</p>
+
+<h3 id="tables-styling-in-twitter-bootstrap">Tables styling in Twitter Bootstrap</h3>
+
+<p>Creating and styling tables are very easy with bootstrap, you can apply <code class="highlighter-rouge">.table-striped, .table-bordered, .table-hover, .table-condensed</code> to apply styling to whole table or use contextual classes <code class="highlighter-rouge">.active .success .warning</code> and <code class="highlighter-rouge">.danger</code> to color table rows or individual cells.</p>
+
+<h3 id="making-tables-responsive">Making Tables Responsive</h3>
+
+<p>Creating responsive tables is simple by wrapping any <code class="highlighter-rouge">.table</code> in <code class="highlighter-rouge">.table-responsive</code> to make them scroll horizontally up to small devices (under 768px).</p>
+
+<h3 id="forms-in-twitter-bootstrap">Forms in Twitter Bootstrap</h3>
+
+<p>Creating different type of form with bootstrap is also simple and easy. Since version 3 of Twitter Bootstrap inputs, selects, and textareas are 100% wide by default in Bootstrap framework.</p>
+
+<p>You can use predefined grid classes to align labels and groups of form controls in a horizontal layout. Form states will allow you to provide feedback to users.</p>
+
+<h3 id="buttons-and-images">Buttons and images</h3>
+
+<p>Creating beautiful buttons are easy just apply available classes to change the size, color or state. There are many classes available to style buttons, such as .btn-primary will make your button blue, .btn-success will add green background and btn.danger will add red background to your button.</p>
+
+<p>Even <code class="highlighter-rouge">.btn-lg</code>, <code class="highlighter-rouge">.btn-sm</code>, <code class="highlighter-rouge">.btn-xs</code> and <code class="highlighter-rouge">.btn-block</code> are available to make buttons large, small, extra small and block.</p>
+
+<p>Bootstrap offers <code class="highlighter-rouge">.img-rounded</code>, <code class="highlighter-rouge">.img-circle</code> and <code class="highlighter-rouge">.img-thumbnail</code> to style images. These classes will make your images square, round and add border to your images.</p>
+
+<p>Image replacement is simple just apply <code class="highlighter-rouge">.text-hide</code> class to replace an element’s text content with a background image for example for site logo.</p>
+
+<h3 id="faster-mobile-friendly-development-with-responsive-utilities">Faster mobile-friendly development with Responsive utilities</h3>
+
+<p>One of the cool feature of bootstrap was the ability to mark the content so that it only appears in certain devices. That remains in the new version but class names has been changed in version 3.</p>
+
+<p>Bootstrap 3 offers 8 different classes to show or hide content from screen. For example if you apply <code class="highlighter-rouge">.visible-xs</code> to an element, it will only be visible on extra small devices Phones (&lt;768px) and hidden on tablets and desktops.</p>
+
+<p>print classes are also available for toggling content for print. You can use <code class="highlighter-rouge">.visible-print</code> to show and <code class="highlighter-rouge">.hidden-print</code> class to hide content while printing. Components</p>
+
+<h2 id="pre-built-components">Pre built Components</h2>
+
+<p>Pre built components are one of the most cool feature of Bootstrap. Many components are available to make your work flow faster, which includes drop downs, button groups, navigation menus, breadcrumbs, pagination, labels, thumbnails, alerts and many others.</p>
+
+<p>Lets have a look at some of them in details.</p>
+
+<h3 id="glyphicons">Glyphicons</h3>
+
+<p>Since version 3 bootstrap included 200 glyphs in font format. It is a welcome change because they can be resized and will display perfectly even if the resolution of the screen increases.</p>
+
+<p>It also gives you the ability to color icons, before version 3 of twitter bootstrap you can only use white or black version of icons.</p>
+
+<h3 id="dropdown-and-navigation-menus">Dropdown and Navigation Menus</h3>
+
+<p>Bootstrap uses drop-down JavaScript plug-in for drop down items. Drop down can be used with buttons and nav menus. There are many nav menus available in Bootstrap that can be styled differently with <code class="highlighter-rouge">.nav-pills</code>, <code class="highlighter-rouge">.nav-tabs</code>, <code class="highlighter-rouge">.nav-stacked</code>. and <code class="highlighter-rouge">.nav-justified</code>. You can use <code class="highlighter-rouge">.nav-justified</code> make tabs or pills equal widths of their parent at screens wider than 768px .</p>
+
+<h3 id="jumbotron-and-thumbnails">Jumbotron and Thumbnails</h3>
+
+<p>Jumbotron is a big area usually spanning the width of web page. Jumbotron is great to draw user attention. It is main component for calling extra attention and to show featured content or information.</p>
+
+<p>Thumbnail component can be used to easily display grids of images, videos, text, and more. Create products pages or use to show any related information. It is possible to add heading, paragraphs and buttons into thumbnails.</p>
+
+<h3 id="list-groups">List groups</h3>
+
+<p>List groups component lets you create mobile like lists with a lot of different options. You can create an unordered list with a class of <code class="highlighter-rouge">.list-group</code> and list-items with <code class="highlighter-rouge">.list-group-item</code> class. You can easily add badges to list items or make them click able links by making them into anchor tag..</p>
+
+<h3 id="javascript-and-jquery-plugins">JavaScript and JQuery plugins</h3>
+
+<p>Bootstrap uses a number of JQuery based plug ins, JQuery is one of the most popular JavaScrit framework. These plugins includes Modals , Dropdowns, ScrollSpy, Tab, Tooltip, Popover, Carousel and many others. Carousal is one of the most popular feature of bootstrap. It can be used to create slide show of featured products or images.</p>
+
+<h3 id="twitter-bootstrap-and-browser-support">Twitter Bootstrap and Browser Support</h3>
+
+<p>Bootstrap will work best in the latest desktop and mobile browsers, older browsers might display differently styled, though fully functional, renderings of certain components. Twitter Bootstrap supports the latest version of <a href="https://www.google.com/intl/en/chrome/browser/">Chrome</a>, <a href="https://www.apple.com/safari/">Safari</a>, <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a> and <a href="http://www.opera.com/">Opera</a> browser.</p>
+
+<p>According to official bootstrap documentation</p>
+
+<blockquote>
+  <p>Unofficially, Bootstrap should look and behave well enough in Chromium and Chrome for Linux, Firefox for Linux, and Internet Explorer 7, though they are not officially supported.</p>
+</blockquote>
+
+<h3 id="internet-explorer-8-and-9">Internet Explorer 8 and 9</h3>
+
+<p>Internet Explorer 8 and 9 are also supported, however, some CSS3 properties and HTML5 elements are not fully supported in Internet Explorer 8 and 9 . Internet Explorer 8 does not support border-radius, box-shadow, transform, transition and placeholder.</p>
+
+<p>Internet Explorer 8 requires the use of Respond.js to enable media query support. Respond.js is a fast &amp; lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).</p>
+
+<h2 id="download-twitter-bootstrap">Download Twitter Bootstrap</h2>
+
+<h3 id="download-pre-compiled-version">Download Pre Compiled Version</h3>
+
+<p>Bootstrap offers a lot of features. You can download pre compiled version at <a href="http://getbootstrap.com/getting-started/">http://getbootstrap.com/getting-started/</a>, which includes 3 folder CSS, Fonts and JS with minified and non minified files.</p>
+
+<h3 id="download-twitter-bootstrap-with-source-code">Download Twitter Bootstrap with source code</h3>
+
+<p>You can download Source code directly from <a href="https://github.com/twbs/bootstrap">github</a> with LESS, JavaScript source and example files. You can visit <a href="http://getbootstrap.com/getting-started/">http://getbootstrap.com/getting-started/</a> to download compiled and minified version, Less and Saas support is also available and you can download your desired version of Bootstrap as well.</p>
+
+<p><a href="https://github.com/twbs/bootstrap">Visit github page</a></p>
+
+<p><a href="http://getbootstrap.com/getting-started/">Visit getting started page</a></p>
+
+<h3 id="customize-and-download">Customize and download</h3>
+
+<p>Evert project has different requirements, Not all components are required in every project, you can choose what you need, for example if you want to use Grid system only, you can visit Bootstrap’s customize page and select components and features you want..</p>
+
+<p>Visit <a href="http://getbootstrap.com/customize/">Twitter Bootstrap’s customize page</a> select features you want and click Compile and download.</p>
+
+<p>That’s all. Twitter Bootstrap is very powerful framework, which makes your workflow much faster and easier. I use this framework to create responsive WordPress themes quickly, have you used this awesome framework, how do you use it, share your views in comments.</p>
+
+
+  </div>
+
+  
+</article>
+
+
+          <nav aria-label="Page navigation">
+            <ul class="pager">
+            <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+            <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
+              
+              <li class="previous" >
+                <a aria-label="Previous" href="/what-is-bootstrap">&laquo; What is Bootstrap</a>
+              </li>
+              
+              
+              <li class="next">
+                <a aria-label="Next" href="/getting-started">Getting Started With Bootstrap Tutorial for beginners &raquo;</a>
+              </li>
+              
+              </ul>
+          </nav>
+        </main>
+
+      <aside class="col-md-4" id="sidebar">
+
+  <h4>Build Your Website</h4>
+  <ul>
+    <li>
+      <a target="_blank" href="1and1-$0.99-domain" rel="nofollow" onmousedown="this.href='http://www.tkqlhce.com/click-8100168-11202973-1477921724000';">Register Domain $0.99/Year</a>
+    </li>
+    <li>
+      <a target="_blank" href="1and1-shared-hosting" rel="nofollow" onmousedown="this.href='http://www.tkqlhce.com/click-8100168-11202973-1477921724000';">Buy WebHosting $11.88/Year</a>
+    </li>
+  </ul>
+
+  <h4>Getting Started With Bootstrap</h4>
+  
+  <ul>
+    <li><a href="/what-is-bootstrap">what is bootstrap</a></li>
+    <li><a href="/bootstrap3-features">Bootstrap 3 Features</a></li>
+    <li><a href="/getting-started">getting started with Bootstrap</a></li>
+    <!-- <li><a href="/bootstrap-template/">bootstrap template</a></li>
+    <li><a href="/bootstrap-3/">bootstrap 3</a></li>
+    <li><a href="/bootstrap-3-tutorial/">bootstrap 3 tutorial</a></li> -->
+  </ul>
+
+<!-- <h3>Bootstrap Tutorials</h3>
+<ul>
+  <li><a href="/learn-bootstrap/">learn bootstrap</a></li>
+  <li><a href="/bootstrap-tutorial-pdf/">bootstrap tutorial pdf</a></li>
+  <li><a href="/how-to-use-bootstrap/">how to use bootstrap</a></li>
+  <li><a href="/bootstrap-sample/">bootstrap sample</a></li>
+  <li><a href="/bootstrap-layout-examples/">bootstrap layout examples</a></li>
+  <li><a href="/bootstrap-layout/">bootstrap layout</a></li>
+  <li><a href="/bootstrap-css-tutorial/">bootstrap css tutorial</a></li>
+  <li><a href="/bootstrap-min-js/">bootstrap min js</a></li>
+  <li><a href="/bootstrap-js-tutorial/">bootstrap js tutorial</a></li>
+  <li><a href="/bootstrap-getting-started/">bootstrap getting started</a></li>
+  <li><a href="/install-bootstrap/">install bootstrap</a></li>
+  <li><a href="/bootstrap-page/">bootstrap page</a></li>
+  <li><a href="/bootstrap-tutorial-for-beginners/">bootstrap tutorial for beginners</a></li>
+  <li><a href="/tutorial-bootstrap/">tutorial bootstrap</a></li>
+  <li><a href="/html-bootstrap/">html bootstrap</a></li>
+  <li><a href="/download bootstrap template/">download bootstrap template</a></li>
+  <li><a href="/using-bootstrap/">using bootstrap</a></li>
+  <li><a href="/bootstrap-video/">bootstrap video</a></li>
+  <li><a href="/bootstrap-less/">bootstrap less</a></li>
+  <li><a href="/simple-bootstrap-template/">simple bootstrap template</a></li>
+  <li><a href="/bootstrap-website/">bootstrap website</a></li>
+  <li><a href="/bootstrap-lightbox/">bootstrap lightbox</a></li>
+  <li><a href="/bootstrap-video-player/">bootstrap video player</a></li>
+  <li><a href="/bootstrap-plugins/">bootstrap plugins</a></li>
+  <li><a href="/bootstrap-notification/">bootstrap notification</a></li>
+</ul> -->
+  
+</aside>
+<hr>
+
+      </div> <!-- ##row -->
+    </div> <!-- ##container -->
+
+    <footer class="site-footer">
+
+  <div class="container">
+    <div class="row">
+
+      <h2 class="footer-heading col-md-12">
+        <a href="/">BootstrapTutorialHub.com</a>
+      </h2>
+
+      <div class="col-md-3">
+        <ul class="contact-list">
+          <li>
+            
+              Created by Tahir Taous (@TahirTaous)
+            
+            </li>
+            
+        </ul>
+      </div>
+      
+      <div class="col-md-3">
+        <ul class="social-media-list">
+          
+      
+          
+          <li>
+            <a href="https://twitter.com/TahirTaous"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">TahirTaous</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="col-md-6">
+        <p>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+</p>
+      </div>
+
+    </div> <!-- ##row -->
+  </div> <!-- ##container -->
+
+</footer> <!-- ##footer -->
+
+
+  </body>
+
+</html>

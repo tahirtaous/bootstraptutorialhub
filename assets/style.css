@@ -24,7 +24,7 @@
  */
 body {
 
-  font: 400 16px/1.5 'Titillium Web', Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 'Titillium Web', sansation, exo, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
  }
@@ -45,6 +45,11 @@ body {
       max-width: calc(1100px - (30px));
       padding-right: 15px;
       padding-left: 15px; }
+}
+
+.wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .site-header, #feature-box {

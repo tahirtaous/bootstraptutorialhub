@@ -37,6 +37,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/style.css">
   <link rel="canonical" href="http://localhost:4000/offers/">
@@ -110,7 +111,7 @@
           
         
           
-          <a class="page-link" href="/thanks">404 Not Found</a>
+          <a class="page-link" href="/thanks">Thank You</a>
           
         
           
@@ -173,29 +174,30 @@
 </header>
 
 
-    <div class="wrapper">
-  <div id="feature-box">
-  <p>
-      Learn to build powerful mobile friendly websites with Bootstrap framework.
-  </p>
-    <!-- <h2>Buy Shared Hosting From $9.88/Year | Register Domain Name from $3.98/Year</h2>
+    <div class="container">
+  <div class="jumbotron">
     <p>
-        Renewal price $38.88/year Hosting costs less than a domain! <strong>Get supercharged website hosting for under $10/first year and host up to 3 websites</strong>.
+        Learn to build powerful mobile friendly websites with Bootstrap framework.
     </p>
-    <p>
-    	<a href="http://www.tkqlhce.com/click-8100168-11202973-1477921724000" target="_top">
-<img src="http://www.lduhtrp.net/image-8100168-11202973-1477921724000" width="728" height="90" alt="1&1 Web Hosting" border="0"/></a>
-    </p>
-    <p>
-        <button><a target="_blank" href="namecheap-shared-hosting" rel="nofollow" onmousedown="this.href='https://www.namecheap.com/hosting/shared.aspx?aff=65493';">Shared Hosting $9/Year only</a></button> <button><a href="register-domain-name" rel="nofollow" target="_blank" onmousedown="this.href='https://www.namecheap.com/domains/registration.aspx?aff=65493';">Register A Domain Name from $3.98/year</a></button>
-    </p>
-  </div> -->
+      <!-- <h2>Buy Shared Hosting From $9.88/Year | Register Domain Name from $3.98/Year</h2>
+      <p>
+          Renewal price $38.88/year Hosting costs less than a domain! <strong>Get supercharged website hosting for under $10/first year and host up to 3 websites</strong>.
+      </p>
+      <p>
+      	<a href="http://www.tkqlhce.com/click-8100168-11202973-1477921724000" target="_top">
+  <img src="http://www.lduhtrp.net/image-8100168-11202973-1477921724000" width="728" height="90" alt="1&1 Web Hosting" border="0"/></a>
+      </p>
+      <p>
+          <button><a target="_blank" href="namecheap-shared-hosting" rel="nofollow" onmousedown="this.href='https://www.namecheap.com/hosting/shared.aspx?aff=65493';">Shared Hosting $9/Year only</a></button> <button><a href="register-domain-name" rel="nofollow" target="_blank" onmousedown="this.href='https://www.namecheap.com/domains/registration.aspx?aff=65493';">Register A Domain Name from $3.98/year</a></button>
+      </p> -->
+  </div>
 </div>
 
-    <div class="row wrapper">
+    <div class="container">
+      <div class="row">
 
-    <main class="col col--8-of-12" aria-label="Content">
-      <article class="post">
+        <main class="col-md-8" aria-label="Content">
+          <article class="post">
 
   <header class="post-header">
     <h1 class="post-title">Offers</h1>
@@ -253,17 +255,17 @@
 </article>
 
 
-      <nav aria-label="Page navigation">
-      <ul class="pager">
-      <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
-      <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
-        
-        
-        </ul>
-      </nav>
-    </main>
+          <nav aria-label="Page navigation">
+            <ul class="pager">
+            <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+            <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
+              
+              
+              </ul>
+          </nav>
+        </main>
 
-    <aside class="col col--4-of-12" id="sidebar">
+      <aside class="col-md-4" id="sidebar">
 
   <h4>Build Your Website</h4>
   <ul>
@@ -279,9 +281,9 @@
   
   <ul>
     <li><a href="/what-is-bootstrap">what is bootstrap</a></li>
+    <li><a href="/bootstrap3-features">Bootstrap 3 Features</a></li>
     <li><a href="/getting-started">getting started with Bootstrap</a></li>
-    <!-- <li><a href="/bootstrap-examples/">bootstrap examples</a></li>
-    <li><a href="/bootstrap-template/">bootstrap template</a></li>
+    <!-- <li><a href="/bootstrap-template/">bootstrap template</a></li>
     <li><a href="/bootstrap-3/">bootstrap 3</a></li>
     <li><a href="/bootstrap-3-tutorial/">bootstrap 3 tutorial</a></li> -->
   </ul>
@@ -318,18 +320,19 @@
 </aside>
 <hr>
 
-    </div>
+      </div> <!-- ##row -->
+    </div> <!-- ##container -->
 
     <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="container">
+    <div class="row">
 
-    <h2 class="footer-heading">
-      <a href="/">BootstrapTutorialHub.com</a>
-    </h2>
+      <h2 class="footer-heading col-md-12">
+        <a href="/">BootstrapTutorialHub.com</a>
+      </h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="col-md-3">
         <ul class="contact-list">
           <li>
             
@@ -339,11 +342,11 @@
             
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
+      
+      <div class="col-md-3">
         <ul class="social-media-list">
           
-
+      
           
           <li>
             <a href="https://twitter.com/TahirTaous"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
@@ -353,16 +356,16 @@
           
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
+      
+      <div class="col-md-6">
         <p>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
 </p>
       </div>
-    </div>
 
-  </div>
+    </div> <!-- ##row -->
+  </div> <!-- ##container -->
 
-</footer>
+</footer> <!-- ##footer -->
 
 
   </body>

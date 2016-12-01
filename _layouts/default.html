@@ -9,32 +9,34 @@
 
     {% include feature.html %}
 
-    <div class="row wrapper">
+    <div class="container">
+      <div class="row">
 
-    <main class="col col--8-of-12" aria-label="Content">
-      {{ content }}
+        <main class="col-md-8" aria-label="Content">
+          {{ content }}
 
-      <nav aria-label="Page navigation">
-      <ul class="pager">
-      <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
-      <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
-        {% if page.previous.url %}
-        <li class="previous" >
-          <a aria-label="Previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="next">
-          <a aria-label="Next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-        </li>
-        {% endif %}
-        </ul>
-      </nav>
-    </main>
+          <nav aria-label="Page navigation">
+            <ul class="pager">
+            <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+            <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
+              {% if page.previous.url %}
+              <li class="previous" >
+                <a aria-label="Previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+              </li>
+              {% endif %}
+              {% if page.next.url %}
+              <li class="next">
+                <a aria-label="Next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+              </li>
+              {% endif %}
+              </ul>
+          </nav>
+        </main>
 
-    {% include sidebar.html %}
+      {% include sidebar.html %}
 
-    </div>
+      </div> <!-- ##row -->
+    </div> <!-- ##container -->
 
     {% include footer.html %}
 

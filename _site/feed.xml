@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-14T16:34:08+05:00</updated><id>http://localhost:4000//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-01T21:45:54+05:00</updated><id>http://localhost:4000//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
 </subtitle><author><name>Created by Tahir Taous (@TahirTaous)</name></author><entry><title type="html">Getting Started With Bootstrap Tutorial for beginners</title><link href="http://localhost:4000/getting-started" rel="alternate" type="text/html" title="Getting Started With Bootstrap Tutorial for beginners" /><published>2016-11-11T10:55:54+05:00</published><updated>2016-11-11T10:55:54+05:00</updated><id>http://localhost:4000/getting-started</id><content type="html" xml:base="http://localhost:4000/getting-started">&lt;p&gt;&lt;img src=&quot;/assets/images/getting-started-with-bootstrap.png&quot; alt=&quot;Getting Started With Bootstrap Tutorial for beginners&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;: Bootstrap Version: 3.3.7&lt;/p&gt;
 
 &lt;p&gt;To use Bootstrap framework, basic understanding of HTML and CSS is necessary. But if you don’t anything about HTML, CSS, you should learn basics of HTML and CSS.&lt;/p&gt;
 
@@ -100,11 +102,13 @@ Two column area
 
 &lt;p&gt;First of all we are going to add primary navigation menu to our site. Replace &lt;strong&gt;nav here&lt;/strong&gt; with the following markup.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav nav-tabs&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav nav-tabs&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;active&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;index.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Home&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;about.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;about&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contact.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;contact&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;result&quot;&gt;Result&lt;/h4&gt;
 
@@ -171,11 +175,185 @@ Two column area
 &lt;p&gt;&lt;!-- end ##row --&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
+&lt;h2 id=&quot;final-website&quot;&gt;Final website&lt;/h2&gt;
+
+&lt;p&gt;Here is the final version of our website. I have also changed the default font for my final website. You can add new font in your css file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bootstrap-getting-started.png&quot; alt=&quot;Getting Started With Bootstrap 3 Tutorial&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, you can see that, it is very easy to create responsive websites with Bootstrap.&lt;/p&gt;
+
 &lt;h2 id=&quot;thats-all&quot;&gt;That’s all&lt;/h2&gt;
 
 &lt;p&gt;You have created your first responsive website with Bootstrap framework. You can also download final code files of this tutorial.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/files/getting-started-bootstrap-files.zip&quot;&gt;Download Tutorial File&lt;/a&gt;&lt;/p&gt;</content><author><name>Created by Tahir Taous (@TahirTaous)</name></author><summary type="html">In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/getting-started-with-bootstrap.png" /></entry><entry><title type="html">What is Bootstrap</title><link href="http://localhost:4000/what-is-bootstrap" rel="alternate" type="text/html" title="What is Bootstrap" /><published>2016-11-11T10:49:54+05:00</published><updated>2016-11-11T10:49:54+05:00</updated><id>http://localhost:4000/what-is-bootstrap</id><content type="html" xml:base="http://localhost:4000/what-is-bootstrap">&lt;p&gt;&lt;img src=&quot;/assets/images/what-is-bootstrap-framework.png&quot; alt=&quot;what is bootstrap framework&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/getting-started-bootstrap-files.zip&quot;&gt;Download Tutorial File&lt;/a&gt;&lt;/p&gt;</content><author><name>Created by Tahir Taous (@TahirTaous)</name></author><summary type="html">In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/getting-started-with-bootstrap.png" /></entry><entry><title type="html">A brief introduction to bootstrap 3 framework features</title><link href="http://localhost:4000/bootstrap3-features" rel="alternate" type="text/html" title="A brief introduction to bootstrap 3 framework features" /><published>2016-11-11T10:55:54+05:00</published><updated>2016-11-11T10:55:54+05:00</updated><id>http://localhost:4000/bootstrap3-features</id><content type="html" xml:base="http://localhost:4000/bootstrap3-features">&lt;p&gt;&lt;img src=&quot;/assets/images/bootstrap3-features.png&quot; alt=&quot;Getting Started With Bootstrap 3 Features&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;: Bootstrap Version: 3.3.7&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; is a front end development framework to create beautiful, fully responsive websites. It was created by Mark Otto and Jacob Thornton, who were designer and developer at &lt;a href=&quot;http://Twitter.com/TahirTaous&quot;&gt;Twitter.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;initially Bootstrap was called twitter Blueprint, when it was first created in 2010. In August, 2011 Bootstrap was released as an open-sourced framework.&lt;/p&gt;
+
+&lt;p&gt;In version 2, bootstrap team added responsive functionality to the entire framework as an optional style-sheet. Version 3 of bootstrap was a major release, complete library was rewritten to make Bootstrap fully responsive by default.&lt;/p&gt;
+
+&lt;p&gt;Front-end refers to the client side of website, that’s the part of a website a visitor sees in the browser. A front-end development framework is a bunch of code that is written for you already, that you can use to build great websites quickly and easily without learning a lot of code.&lt;/p&gt;
+
+&lt;p&gt;Twitter Bootstrap has a &lt;a href=&quot;http://getbootstrap.com/getting-started/&quot;&gt;comprehensive documentation to get started&lt;/a&gt; in English. Community members have translated Bootstrap’s documentation into Chinese, Spanish and Russian languages. None are officially supported by Twitter Bootstrap and may not always be up to date.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://v3.bootcss.com/&quot;&gt;Bootstrap 中文文档 (Chinese)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.oneskyapp.com/ru/docs/bootstrap&quot;&gt;Bootstrap по-русски (Russian)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.oneskyapp.com/docs/bootstrap/es&quot;&gt;Bootstrap en Español (Spanish)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-you-should-use-twitter-bootstrap-&quot;&gt;Why You should use Twitter Bootstrap ?&lt;/h2&gt;
+
+&lt;p&gt;You will be able to create beautiful and fully responsive website quickly and easily without learning a lot of coding, best practices and CSS3 media Queries from scratch. Media Queries used to make your static websites responsive.&lt;/p&gt;
+
+&lt;p&gt;You can learn Bootstrap in a few days but it will take months or years to be an expert in HTML, CSS, Responsive design and JavaScript. Writing code is not difficult but writing bug free, semantic code with industry’s best practices that will work on different platforms is a really difficult.&lt;/p&gt;
+
+&lt;h2 id=&quot;twitter-bootstrap-features&quot;&gt;Twitter Bootstrap Features&lt;/h2&gt;
+
+&lt;h3 id=&quot;css-styles&quot;&gt;CSS Styles&lt;/h3&gt;
+
+&lt;p&gt;Twitter Bootstrap is mobile first, it means your websites will be fully responsive on desktop, tablets and smart phones. You can make images responsive by adding &lt;code class=&quot;highlighter-rouge&quot;&gt;.img-responsive&lt;/code&gt; class in bootstrap 3. For improved cross-browser rendering, Bootstrap uses &lt;a href=&quot;http://necolas.github.io/normalize.css/&quot;&gt;Normalize.css&lt;/a&gt;, a project by &lt;a href=&quot;http://nicolasgallagher.com/&quot;&gt;Nicolas Gallagher&lt;/a&gt; and &lt;a href=&quot;http://www.jonathantneal.com/&quot;&gt;Jonathan Neal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsive-grid-system-twitter-bootstrap&quot;&gt;Responsive Grid System Twitter Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;Twitter Bootstrap has a 12 column responsive, mobile first grid system, which uses predefined classes like &lt;code class=&quot;highlighter-rouge&quot;&gt;.container&lt;/code&gt; to create a primary wrapper for your web page, &lt;code class=&quot;highlighter-rouge&quot;&gt;.row .col-xs-4, .col-md-1, col-md-4&lt;/code&gt; and others to create grid layouts quickly and easily.&lt;/p&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;.col-xs-*&lt;/code&gt; to target small screen devices such as mobile phones, &lt;code class=&quot;highlighter-rouge&quot;&gt;.col-md-*&lt;/code&gt; will target medium devices like tablets, desktop and &lt;code class=&quot;highlighter-rouge&quot;&gt;.col-lg-*&lt;/code&gt; will target large screens. ** * ** will be replaced with your desired number for grid layout.&lt;/p&gt;
+
+&lt;p&gt;For example you can create 2 column layout easily with &lt;code class=&quot;highlighter-rouge&quot;&gt;.col-md-8&lt;/code&gt; for main area and &lt;code class=&quot;highlighter-rouge&quot;&gt;.col-md-4&lt;/code&gt; class for sidebar.&lt;/p&gt;
+
+&lt;p&gt;Twitter Bootstrap Classes are available for Mobile, tablets and desktops. With Twitter Bootstrap’s these classes you can easily create multi column layouts.&lt;/p&gt;
+
+&lt;p&gt;Advance users can use LESS mixins to create more semantic layouts. For example to create a 2 column layout you can use following code.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;container&quot;&amp;gt;
+
+    &amp;lt;main class=&quot;row&quot;&amp;gt;
+
+        &amp;lt;article class=&quot;col-md-8&quot;&amp;gt;
+           primary content
+        &amp;lt;/article&amp;gt; &amp;lt;!--end .col-md-8--&amp;gt;
+
+        &amp;lt;aside class=&quot;col-md-4&quot;&amp;gt;
+            sidebar content
+        &amp;lt;/aside&amp;gt;&amp;lt;!--end .col-md-4--&amp;gt;
+
+    &amp;lt;/main&amp;gt; &amp;lt;!--end .row--&amp;gt;
+
+&amp;lt;/div&amp;gt; &amp;lt;!--end .container--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;typography-in-twitter-bootstrap&quot;&gt;Typography in Twitter Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;Bootstrap offers many classes to style heading, text, paragraphs etc. Alignment classes &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-left, .text-center, .text-right&lt;/code&gt; allows you to easily realign text s with available text alignment classes.&lt;/p&gt;
+
+&lt;p&gt;Emphasis classes &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-muted, text-primary, .text-success&lt;/code&gt; and other classes will color your text. styling for lists, block quotes, code is also available.&lt;/p&gt;
+
+&lt;h3 id=&quot;tables-styling-in-twitter-bootstrap&quot;&gt;Tables styling in Twitter Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;Creating and styling tables are very easy with bootstrap, you can apply &lt;code class=&quot;highlighter-rouge&quot;&gt;.table-striped, .table-bordered, .table-hover, .table-condensed&lt;/code&gt; to apply styling to whole table or use contextual classes &lt;code class=&quot;highlighter-rouge&quot;&gt;.active .success .warning&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.danger&lt;/code&gt; to color table rows or individual cells.&lt;/p&gt;
+
+&lt;h3 id=&quot;making-tables-responsive&quot;&gt;Making Tables Responsive&lt;/h3&gt;
+
+&lt;p&gt;Creating responsive tables is simple by wrapping any &lt;code class=&quot;highlighter-rouge&quot;&gt;.table&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;.table-responsive&lt;/code&gt; to make them scroll horizontally up to small devices (under 768px).&lt;/p&gt;
+
+&lt;h3 id=&quot;forms-in-twitter-bootstrap&quot;&gt;Forms in Twitter Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;Creating different type of form with bootstrap is also simple and easy. Since version 3 of Twitter Bootstrap inputs, selects, and textareas are 100% wide by default in Bootstrap framework.&lt;/p&gt;
+
+&lt;p&gt;You can use predefined grid classes to align labels and groups of form controls in a horizontal layout. Form states will allow you to provide feedback to users.&lt;/p&gt;
+
+&lt;h3 id=&quot;buttons-and-images&quot;&gt;Buttons and images&lt;/h3&gt;
+
+&lt;p&gt;Creating beautiful buttons are easy just apply available classes to change the size, color or state. There are many classes available to style buttons, such as .btn-primary will make your button blue, .btn-success will add green background and btn.danger will add red background to your button.&lt;/p&gt;
+
+&lt;p&gt;Even &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn-lg&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn-sm&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn-xs&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn-block&lt;/code&gt; are available to make buttons large, small, extra small and block.&lt;/p&gt;
+
+&lt;p&gt;Bootstrap offers &lt;code class=&quot;highlighter-rouge&quot;&gt;.img-rounded&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.img-circle&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.img-thumbnail&lt;/code&gt; to style images. These classes will make your images square, round and add border to your images.&lt;/p&gt;
+
+&lt;p&gt;Image replacement is simple just apply &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-hide&lt;/code&gt; class to replace an element’s text content with a background image for example for site logo.&lt;/p&gt;
+
+&lt;h3 id=&quot;faster-mobile-friendly-development-with-responsive-utilities&quot;&gt;Faster mobile-friendly development with Responsive utilities&lt;/h3&gt;
+
+&lt;p&gt;One of the cool feature of bootstrap was the ability to mark the content so that it only appears in certain devices. That remains in the new version but class names has been changed in version 3.&lt;/p&gt;
+
+&lt;p&gt;Bootstrap 3 offers 8 different classes to show or hide content from screen. For example if you apply &lt;code class=&quot;highlighter-rouge&quot;&gt;.visible-xs&lt;/code&gt; to an element, it will only be visible on extra small devices Phones (&amp;lt;768px) and hidden on tablets and desktops.&lt;/p&gt;
+
+&lt;p&gt;print classes are also available for toggling content for print. You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;.visible-print&lt;/code&gt; to show and &lt;code class=&quot;highlighter-rouge&quot;&gt;.hidden-print&lt;/code&gt; class to hide content while printing. Components&lt;/p&gt;
+
+&lt;h2 id=&quot;pre-built-components&quot;&gt;Pre built Components&lt;/h2&gt;
+
+&lt;p&gt;Pre built components are one of the most cool feature of Bootstrap. Many components are available to make your work flow faster, which includes drop downs, button groups, navigation menus, breadcrumbs, pagination, labels, thumbnails, alerts and many others.&lt;/p&gt;
+
+&lt;p&gt;Lets have a look at some of them in details.&lt;/p&gt;
+
+&lt;h3 id=&quot;glyphicons&quot;&gt;Glyphicons&lt;/h3&gt;
+
+&lt;p&gt;Since version 3 bootstrap included 200 glyphs in font format. It is a welcome change because they can be resized and will display perfectly even if the resolution of the screen increases.&lt;/p&gt;
+
+&lt;p&gt;It also gives you the ability to color icons, before version 3 of twitter bootstrap you can only use white or black version of icons.&lt;/p&gt;
+
+&lt;h3 id=&quot;dropdown-and-navigation-menus&quot;&gt;Dropdown and Navigation Menus&lt;/h3&gt;
+
+&lt;p&gt;Bootstrap uses drop-down JavaScript plug-in for drop down items. Drop down can be used with buttons and nav menus. There are many nav menus available in Bootstrap that can be styled differently with &lt;code class=&quot;highlighter-rouge&quot;&gt;.nav-pills&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.nav-tabs&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.nav-stacked&lt;/code&gt;. and &lt;code class=&quot;highlighter-rouge&quot;&gt;.nav-justified&lt;/code&gt;. You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;.nav-justified&lt;/code&gt; make tabs or pills equal widths of their parent at screens wider than 768px .&lt;/p&gt;
+
+&lt;h3 id=&quot;jumbotron-and-thumbnails&quot;&gt;Jumbotron and Thumbnails&lt;/h3&gt;
+
+&lt;p&gt;Jumbotron is a big area usually spanning the width of web page. Jumbotron is great to draw user attention. It is main component for calling extra attention and to show featured content or information.&lt;/p&gt;
+
+&lt;p&gt;Thumbnail component can be used to easily display grids of images, videos, text, and more. Create products pages or use to show any related information. It is possible to add heading, paragraphs and buttons into thumbnails.&lt;/p&gt;
+
+&lt;h3 id=&quot;list-groups&quot;&gt;List groups&lt;/h3&gt;
+
+&lt;p&gt;List groups component lets you create mobile like lists with a lot of different options. You can create an unordered list with a class of &lt;code class=&quot;highlighter-rouge&quot;&gt;.list-group&lt;/code&gt; and list-items with &lt;code class=&quot;highlighter-rouge&quot;&gt;.list-group-item&lt;/code&gt; class. You can easily add badges to list items or make them click able links by making them into anchor tag..&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript-and-jquery-plugins&quot;&gt;JavaScript and JQuery plugins&lt;/h3&gt;
+
+&lt;p&gt;Bootstrap uses a number of JQuery based plug ins, JQuery is one of the most popular JavaScrit framework. These plugins includes Modals , Dropdowns, ScrollSpy, Tab, Tooltip, Popover, Carousel and many others. Carousal is one of the most popular feature of bootstrap. It can be used to create slide show of featured products or images.&lt;/p&gt;
+
+&lt;h3 id=&quot;twitter-bootstrap-and-browser-support&quot;&gt;Twitter Bootstrap and Browser Support&lt;/h3&gt;
+
+&lt;p&gt;Bootstrap will work best in the latest desktop and mobile browsers, older browsers might display differently styled, though fully functional, renderings of certain components. Twitter Bootstrap supports the latest version of &lt;a href=&quot;https://www.google.com/intl/en/chrome/browser/&quot;&gt;Chrome&lt;/a&gt;, &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt;, &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/new/&quot;&gt;Firefox&lt;/a&gt;, &lt;a href=&quot;http://windows.microsoft.com/en-us/internet-explorer/download-ie&quot;&gt;Internet Explorer&lt;/a&gt; and &lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; browser.&lt;/p&gt;
+
+&lt;p&gt;According to official bootstrap documentation&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unofficially, Bootstrap should look and behave well enough in Chromium and Chrome for Linux, Firefox for Linux, and Internet Explorer 7, though they are not officially supported.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;internet-explorer-8-and-9&quot;&gt;Internet Explorer 8 and 9&lt;/h3&gt;
+
+&lt;p&gt;Internet Explorer 8 and 9 are also supported, however, some CSS3 properties and HTML5 elements are not fully supported in Internet Explorer 8 and 9 . Internet Explorer 8 does not support border-radius, box-shadow, transform, transition and placeholder.&lt;/p&gt;
+
+&lt;p&gt;Internet Explorer 8 requires the use of Respond.js to enable media query support. Respond.js is a fast &amp;amp; lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).&lt;/p&gt;
+
+&lt;h2 id=&quot;download-twitter-bootstrap&quot;&gt;Download Twitter Bootstrap&lt;/h2&gt;
+
+&lt;h3 id=&quot;download-pre-compiled-version&quot;&gt;Download Pre Compiled Version&lt;/h3&gt;
+
+&lt;p&gt;Bootstrap offers a lot of features. You can download pre compiled version at &lt;a href=&quot;http://getbootstrap.com/getting-started/&quot;&gt;http://getbootstrap.com/getting-started/&lt;/a&gt;, which includes 3 folder CSS, Fonts and JS with minified and non minified files.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-twitter-bootstrap-with-source-code&quot;&gt;Download Twitter Bootstrap with source code&lt;/h3&gt;
+
+&lt;p&gt;You can download Source code directly from &lt;a href=&quot;https://github.com/twbs/bootstrap&quot;&gt;github&lt;/a&gt; with LESS, JavaScript source and example files. You can visit &lt;a href=&quot;http://getbootstrap.com/getting-started/&quot;&gt;http://getbootstrap.com/getting-started/&lt;/a&gt; to download compiled and minified version, Less and Saas support is also available and you can download your desired version of Bootstrap as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/twbs/bootstrap&quot;&gt;Visit github page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://getbootstrap.com/getting-started/&quot;&gt;Visit getting started page&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;customize-and-download&quot;&gt;Customize and download&lt;/h3&gt;
+
+&lt;p&gt;Evert project has different requirements, Not all components are required in every project, you can choose what you need, for example if you want to use Grid system only, you can visit Bootstrap’s customize page and select components and features you want..&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;http://getbootstrap.com/customize/&quot;&gt;Twitter Bootstrap’s customize page&lt;/a&gt; select features you want and click Compile and download.&lt;/p&gt;
+
+&lt;p&gt;That’s all. Twitter Bootstrap is very powerful framework, which makes your workflow much faster and easier. I use this framework to create responsive WordPress themes quickly, have you used this awesome framework, how do you use it, share your views in comments.&lt;/p&gt;</content><author><name>Created by Tahir Taous (@TahirTaous)</name></author><summary type="html">In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/bootstrap3-features.png" /></entry><entry><title type="html">What is Bootstrap</title><link href="http://localhost:4000/what-is-bootstrap" rel="alternate" type="text/html" title="What is Bootstrap" /><published>2016-11-11T10:49:54+05:00</published><updated>2016-11-11T10:49:54+05:00</updated><id>http://localhost:4000/what-is-bootstrap</id><content type="html" xml:base="http://localhost:4000/what-is-bootstrap">&lt;p&gt;&lt;img src=&quot;/assets/images/what-is-bootstrap-framework.png&quot; alt=&quot;what is bootstrap framework&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An attractive, functioning website requires structure style and behavior and bootstrap is a front-end development framework, which helps you to build attractive websites.&lt;/p&gt;
 

@@ -1,13 +1,13 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="container">
+    <div class="row">
 
-    <h2 class="footer-heading">
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </h2>
+      <h2 class="footer-heading col-md-12">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="col-md-3">
         <ul class="contact-list">
           <li>
             {% if site.author %}
@@ -21,15 +21,15 @@
             {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
+      
+      <div class="col-md-3">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
+      
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
@@ -37,12 +37,12 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
+      
+      <div class="col-md-6">
         <p>{{ site.description | escape }}</p>
       </div>
-    </div>
 
-  </div>
+    </div> <!-- ##row -->
+  </div> <!-- ##container -->
 
-</footer>
+</footer> <!-- ##footer -->
