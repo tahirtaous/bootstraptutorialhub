@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-01T21:45:54+05:00</updated><id>http://localhost:4000//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-01T21:58:01+05:00</updated><id>http://localhost:4000//</id><title type="html">BootstrapTutorialHub.com</title><subtitle>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
 </subtitle><author><name>Created by Tahir Taous (@TahirTaous)</name></author><entry><title type="html">Getting Started With Bootstrap Tutorial for beginners</title><link href="http://localhost:4000/getting-started" rel="alternate" type="text/html" title="Getting Started With Bootstrap Tutorial for beginners" /><published>2016-11-11T10:55:54+05:00</published><updated>2016-11-11T10:55:54+05:00</updated><id>http://localhost:4000/getting-started</id><content type="html" xml:base="http://localhost:4000/getting-started">&lt;p&gt;&lt;img src=&quot;/assets/images/getting-started-with-bootstrap.png&quot; alt=&quot;Getting Started With Bootstrap Tutorial for beginners&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;: Bootstrap Version: 3.3.7&lt;/p&gt;
@@ -231,23 +231,21 @@ Two column area
 
 &lt;p&gt;Advance users can use LESS mixins to create more semantic layouts. For example to create a 2 column layout you can use following code.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;container&quot;&amp;gt;
-
-    &amp;lt;main class=&quot;row&quot;&amp;gt;
-
-        &amp;lt;article class=&quot;col-md-8&quot;&amp;gt;
-           primary content
-        &amp;lt;/article&amp;gt; &amp;lt;!--end .col-md-8--&amp;gt;
-
-        &amp;lt;aside class=&quot;col-md-4&quot;&amp;gt;
-            sidebar content
-        &amp;lt;/aside&amp;gt;&amp;lt;!--end .col-md-4--&amp;gt;
-
-    &amp;lt;/main&amp;gt; &amp;lt;!--end .row--&amp;gt;
-
-&amp;lt;/div&amp;gt; &amp;lt;!--end .container--&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;main&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+               primary content
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!--end .col-md-8--&amp;gt;&lt;/span&gt;
+    
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;aside&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+                sidebar content
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/aside&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!--end .col-md-4--&amp;gt;&lt;/span&gt;
+    
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/main&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!--end .row--&amp;gt;&lt;/span&gt;
+    
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!--end .container--&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;typography-in-twitter-bootstrap&quot;&gt;Typography in Twitter Bootstrap&lt;/h3&gt;
 

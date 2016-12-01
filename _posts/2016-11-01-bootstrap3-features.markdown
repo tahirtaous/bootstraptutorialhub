@@ -49,6 +49,7 @@ Twitter Bootstrap Classes are available for Mobile, tablets and desktops. With T
 
 Advance users can use LESS mixins to create more semantic layouts. For example to create a 2 column layout you can use following code.
 
+{% highlight HTML %}
     <div class="container">
     
         <main class="row">
@@ -64,7 +65,7 @@ Advance users can use LESS mixins to create more semantic layouts. For example t
         </main> <!--end .row-->
     
     </div> <!--end .container-->
-    
+{% endhighlight %}
 
 ### Typography in Twitter Bootstrap
 
