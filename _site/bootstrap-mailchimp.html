@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google search console veriication -->
+  <meta name="google-site-verification" content="Tm05_J21gpm1FMrZ2aq7cG9VjUXeph0c5le5FcYflJ0" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87329913-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <title>How To Add Bootstrap Styling to MailChimp Sign up Forms?</title>
+  <meta name="description" content="Learn how to create a naked MailChimp form (without styles) and style it with Bootstrap forms classes.">
+
+
+<!-- Bootstrap CDN - For BootstrapTutorialHub.com site -->
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="canonical" href="http://localhost:4000/bootstrap-mailchimp">
+  <link rel="alternate" type="application/rss+xml" title="BootstrapTutorialHub.com" href="/feed.xml">
+  
+  
+
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>How To Add Bootstrap Styling to MailChimp Sign up Forms? - BootstrapTutorialHub.com</title>
+<meta property="og:title" content="How To Add Bootstrap Styling to MailChimp Sign up Forms?" />
+<meta name="description" content="Learn how to create a naked MailChimp form (without styles) and style it with Bootstrap forms classes." />
+<meta property="og:description" content="Learn how to create a naked MailChimp form (without styles) and style it with Bootstrap forms classes." />
+<link rel="canonical" href="http://localhost:4000/bootstrap-mailchimp" />
+<meta property="og:url" content="http://localhost:4000/bootstrap-mailchimp" />
+<meta property="og:site_name" content="BootstrapTutorialHub.com" />
+<meta property="og:image" content="http://localhost:4000/assets/images/mailchimp-bootstrap-forms.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-11-13T10:49:54+05:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How To Add Bootstrap Styling to MailChimp Sign up Forms?",
+    "image": "http://localhost:4000/assets/images/mailchimp-bootstrap-forms.png",
+    "datePublished": "2016-11-13T10:49:54+05:00",
+    "description": "Learn how to create a naked MailChimp form (without styles) and style it with Bootstrap forms classes.",
+    "url": "http://localhost:4000/bootstrap-mailchimp"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <img alt="Brand" height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAB+0lEQVR4AcyYg5LkUBhG+1X2PdZGaW3btm3btm3bHttWrPomd1r/2Jn/VJ02TpxcH4CQ/dsuazWgzbIdrm9dZVd4pBz4zx2igTaFHrhvjneVXNHCSqIlFEjiwMyyyOBilRgGSqLNF1jnwNQdIvAt48C3IlBmHCiLQHC2zoHDu6zG1iXn6+y62ScxY9AODO6w0pvAqf23oSE4joOfH6OxfMoRnoGUm+de8wykbFt6wZtA07QwtNOqKh3ZbS3Wzz2F+1c/QJY0UCJ/J3kXWJfv7VhxCRRV1jGw7XI+gcO7rEFFRvdYxydwcPsVsC0bQdKScngt4iUTD4Fy/8p7PoHzRu1DclwmgmiqgUXjD3oTKHbAt869qdJ7l98jNTEblPTkXMwetpvnftA0LLHb4X8kiY9Kx6Q+W7wJtG0HR7fdrtYz+x7iya0vkEtUULIzCjC21wY+W/GYXusRH5kGytWTLxgEEhePPwhKYb7EK3BQuxWwTBuUkd3X8goUn6fMHLyTT+DCsQdAEXNzSMeVPAJHdF2DmH8poCREp3uwm7HsGq9J9q69iuunX6EgrwQVObjpBt8z6rdPfvE8kiiyhsvHnomrQx6BxYUyYiNS8f75H1w4/ISepDZLoDhNJ9cdNUquhRsv+6EP9oNH7Iff2A9g8h8CLt1gH0Qf9NMQAFnO60BJFQe0AAAAAElFTkSuQmCC" width="20"> <a class="site-title" href="/">BootstrapTutorialHub.com</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+
+      <!-- this is default code in Jekyll minima theme. it dynamically add new page link in menu -->
+        <!-- 
+          
+          <a class="page-link" href="/404">404 Not Found</a>
+          
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/contact/">Conatct</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/offers/">Offers</a>
+          
+        
+          
+          <a class="page-link" href="/thanks">Thank You</a>
+          
+        
+          
+        
+          
+         -->
+
+        <!-- This is new code to Excluding page from Jekyll navigation bar. source http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar -->
+        <!-- use exclude: true to exclude page from main navigatio menu -->
+
+        
+          
+        
+          
+             
+               <a class="page-link" href="/about/">About</a>
+             
+          
+        
+          
+             
+               <a class="page-link" href="/contact/">Conatct</a>
+             
+          
+        
+          
+             
+          
+        
+          
+             
+          
+        
+          
+             
+          
+        
+          
+             
+               <a class="page-link" href="/offers/">Offers</a>
+             
+          
+        
+          
+        
+          
+             
+          
+        
+          
+             
+          
+        
+
+      </div> <!-- end .trigger -->
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="container">
+  <div class="jumbotron">
+    <p>
+        Learn to build powerful mobile friendly websites with Bootstrap framework.
+    </p>
+      <!-- <h2>Buy Shared Hosting From $9.88/Year | Register Domain Name from $3.98/Year</h2>
+      <p>
+          Renewal price $38.88/year Hosting costs less than a domain! <strong>Get supercharged website hosting for under $10/first year and host up to 3 websites</strong>.
+      </p>
+      <p>
+      	<a href="http://www.tkqlhce.com/click-8100168-11202973-1477921724000" target="_top">
+  <img src="http://www.lduhtrp.net/image-8100168-11202973-1477921724000" width="728" height="90" alt="1&1 Web Hosting" border="0"/></a>
+      </p>
+      <p>
+          <button><a target="_blank" href="namecheap-shared-hosting" rel="nofollow" onmousedown="this.href='https://www.namecheap.com/hosting/shared.aspx?aff=65493';">Shared Hosting $9/Year only</a></button> <button><a href="register-domain-name" rel="nofollow" target="_blank" onmousedown="this.href='https://www.namecheap.com/domains/registration.aspx?aff=65493';">Register A Domain Name from $3.98/year</a></button>
+      </p> -->
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+
+        <main class="col-md-8" aria-label="Content">
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">How To Add Bootstrap Styling to MailChimp Sign up Forms?</h1>
+    <p class="post-meta"><time datetime="2016-11-13T10:49:54+05:00" itemprop="datePublished"><!-- Nov 13, 2016 --></time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/assets/images/mailchimp-bootstrap-forms.png" alt="what is bootstrap framework" /></p>
+
+<p><a title="Create a free mailchimp.com account" href="http://eepurl.com/bc2eND">MailChimp</a> is one of the most popular and widely used service for email marketing.</p>
+
+<p>Creating email sign up forms, lists, managing your email subscribers and automating your email campaigns is very simple and easy with MailChimp.</p>
+
+<p><a href="/what-is-bootstrap">Bootstrap</a>
+is most popular CSS framework to create fully responsive and mobile friendly websites.</p>
+
+<p>Basic knowledge of HTML and CSS is required to use this awesome framework. You can <a href="/getting-started">build mobile friendly websites</a> very easily with Bootstrap framework.</p>
+
+<p>But to be honest as a beginner it can be difficult to understand how to use so many awesome <a href="/bootstrap3-features">features Bootstrap provides</a> and services offered by MailChimp.</p>
+
+<p>Mailchimp offers an easy to use sign up form builder, you can create customized email sign up forms.</p>
+
+<p>In this article, I am going to show you how you can create a naked mailchimp signup form and add Bootstrap styling.</p>
+
+<p>It is very simple and easy to add bootstrap form styling to mailchimp sign up forms.</p>
+
+<h2 id="create-a-free-mailchimp-account">Create a Free MailChimp account</h2>
+
+<p>To get started with this tutorial you need a mailchimp account, if you don’t have an account go and create a free <a title="Create a free mailchimp.com account" href="http://eepurl.com/bc2eND">MailChimp</a> account.</p>
+
+<h2 id="create-a-mailchimp-list">Create a MailChimp List</h2>
+
+<p>After creating your free mailchimp account log in to your account. Click on lists and create a new list for your campaign or just type <code class="highlighter-rouge">https://us8.admin.mailchimp.com/lists/new-list/</code> in browser address bar to create a new list. Fill out all necessary details and save your list.</p>
+
+<p>Now click on your List name and go to <strong>Sign up Forms</strong> to create a new sign up form for your mailing list. You will see following four options to create a form.</p>
+
+<ul>
+  <li>General Forms</li>
+  <li>Embedded Forms</li>
+  <li>Subscriber popup</li>
+  <li>Form Integration</li>
+</ul>
+
+<p>We are going to create an embedded form, so click on Embedded form, you will see following options for forms.</p>
+
+<ul>
+  <li>Classic Super</li>
+  <li>Slim</li>
+  <li>Naked</li>
+  <li>Advanced</li>
+</ul>
+
+<p>Select Naked. By default there are 3 fields for your sign up forms.</p>
+
+<p>First name, Last Name and email. email field is required and other fields are not necessary. If you want a super simple and minimal form then check on <strong>Show only required fields</strong> radio button.</p>
+
+<p>If you want all 3 fields than copy all the necessary mark up for your sign up form <strong>Copy/paste onto your site</strong> area. If you want to remove any field such as Last Name then click on the form builder link below Show only Required fields section.</p>
+
+<h3 id="how-to-delete-first-or-last-name-from-mailchimp-sign-up-form">How to delete First or Last Name from MailChimp sign up form</h3>
+
+<p>I wanted to use First Name and email fields for my sign up form so i deleted Last Name field from my sign up form. To delete Last Name or any other field select that input field with mouse. You will see + and - symbols below selected input field.</p>
+
+<p>To delete field click on - symbol and type DELETE in capital letters. It is must otherwise you can not delete any field from your sign up form.</p>
+
+<p>When you will select any input field such as first name, last name or email field, on the right hand side you can see all field settings. For example if you will select First Name field, you can edit Field label and  field tag.</p>
+
+<p>Default Field label for First Name is First Name, you can change this to Your Name or something you want. Field tag is used for Name tag in input form field, but leave this field as it is.</p>
+
+<p>You can also make First and Last Name required or hidden. If you want users to must enter their First name when they sign up for your mailing list then check Required Field box. After making your changes click Save Field.</p>
+
+<h2 id="addingbootstrap-forms-css-to-mailchimp-signup-form">Adding bootstrap forms CSS to mailchimp signup form</h2>
+
+<p>Now we have deleted Last Name field from our form. After deleting Last Name field click on Sign Up forms again and go to Naked tab and copy all HTML code to paste in your site.</p>
+
+<p>Open your text editor such as <a href="https://www.sublimetext.com/">Sublimetext</a>, <a title="Adobe Brackets Review Great Free Text Editor from Adobe" href="http://www.tahirtaous.com/brackets-review/">Brackets</a> or any other Text editor you use, If you don’t have any of these text editor then  open simple Notepad and paste all code there. Now find following lines of code.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mc-field-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"mce-EMAIL"</span><span class="nt">&gt;</span>Email Address  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"asterisk"</span><span class="nt">&gt;</span>*<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">name=</span><span class="s">"EMAIL"</span> <span class="na">class=</span><span class="s">"required email"</span> <span class="na">id=</span><span class="s">"mce-EMAIL"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mc-field-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"mce-FNAME"</span><span class="nt">&gt;</span>First Name <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">name=</span><span class="s">"FNAME"</span> <span class="na">class=</span><span class="s">""</span> <span class="na">id=</span><span class="s">"mce-FNAME"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>This is HTML mark up for First Name and Last Name fields. We need to add some essential classes from Bootstrap framework to make this form elegant. because this is naked from with out any styling.</p>
+
+<p>Now replace <code>mc-field-group</code> with <code>mc-field-group form-group</code>, i have just added <code>form-group</code> class from Bootstrap framework. Next find <code>class="required email"</code> in email input field and add one additional <code>form-control</code> class from bootstrap.</p>
+
+<p>After adding new form-control class your you will have three classes <code>class="required email form-control"</code> for email input field.</p>
+
+<p>Under First name label you can see input field for First name with blank CSS class <code>class=""</code>. just Add form-control class here.</p>
+
+<p>You can also provide placeholder text for First name and Email field if you want. I have provided placeholder text for both input fields as well as you can see in code below.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mc-field-group form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"mce-EMAIL"</span><span class="nt">&gt;</span>Email Address  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"asterisk"</span><span class="nt">&gt;</span>*<span class="nt">&lt;/span&gt;</span>
+ <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">name=</span><span class="s">"EMAIL"</span> <span class="na">class=</span><span class="s">"required email form-control"</span> <span class="na">id=</span><span class="s">"mce-EMAIL"</span> <span class="na">placeholder=</span><span class="s">"Type your email"</span><span class="nt">&gt;</span> 
+ <span class="nt">&lt;/div&gt;</span>
+ <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mc-field-group form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"mce-FNAME"</span><span class="nt">&gt;</span>First Name <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">name=</span><span class="s">"FNAME"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"mce-FNAME"</span> <span class="na">placeholder=</span><span class="s">"Type your Name"</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>Styling for First name and email field is complete. Now We are going to style submit button. Find following line</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"Subscribe"</span> <span class="na">name=</span><span class="s">"subscribe"</span> <span class="na">id=</span><span class="s">"mc-embedded-subscribe"</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<p>and add add new classes <code>btn btn-danger btn-lg</code> from bootstrap to style submit button.</p>
+
+<p>If you want to change text for Subscribe button change value=”Subscribe” to your new text e.g. value=”Send Me Free Stuff”.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"Send Me Free Stuff"</span> <span class="na">name=</span><span class="s">"subscribe"</span> <span class="na">id=</span><span class="s">"mc-embedded-subscribe"</span> <span class="na">class=</span><span class="s">"button btn btn-danger btn-lg"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<h3 id="result">Result</h3>
+
+<p>Here you can see live preview of out final form.</p>
+
+<div class="mc-field-group form-group">
+  <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Type your email" />
+</div>
+<div class="mc-field-group form-group">
+  <label for="mce-FNAME">First Name </label>
+  <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Type your Name" />
+</div>
+
+<p><input type="submit" value="Send Me Free Stuff" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-danger btn-lg" /></p>
+
+<p>That’s all. Now copy your new edited mark up and add this to your website.</p>
+
+<p>If you are using <a href="http://justlearnwp.com/create-a-wordpress-website/">WordPress</a>, To add widget to your WordPress website, Go to <code>Appearance &gt; Widget &gt; Select Text Widget</code> and paste your mark mark up there. Save widget and view front end of your website.</p>
+
+<p>WordPress is a free Content Management System to create websites and blogs. You can create <a href="http://justlearnwp.com/create-a-wordpress-website/">30+ websites with WordPress</a>.</p>
+
+<p>Starting a blog is also simple and easy. Read this step by step tutorial to learn <a href="http://justlearnwp.com/how-to-create-a-blog/">how to create a blog with WordPress</a></p>
+
+<h3 id="note">Note</h3>
+
+<p>Remember you must be using Bootstrap based theme on your blog to see styles from bootstrap, if you are using any other theme which does not use Bootstrap you won’t see any styling.</p>
+
+  </div>
+
+  
+</article>
+
+
+          <nav aria-label="Page navigation">
+            <ul class="pager">
+            <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+            <!-- This pagination is not working aftet GitHub after dding baseurl in config.yml -->
+              
+              <li class="previous" >
+                <a aria-label="Previous" href="/getting-started">&laquo; Getting Started With Bootstrap Tutorial for beginners</a>
+              </li>
+              
+              
+              </ul>
+          </nav>
+        </main>
+
+      <aside class="col-md-4" id="sidebar">
+
+  <h4>Build Your Website</h4>
+  <ul>
+    <li>
+      <a target="_blank" href="1and1-$0.99-domain" rel="nofollow" onmousedown="this.href='http://www.tkqlhce.com/click-8100168-11202973-1477921724000';">Register Domain $0.99/Year</a>
+    </li>
+    <li>
+      <a target="_blank" href="1and1-shared-hosting" rel="nofollow" onmousedown="this.href='http://www.tkqlhce.com/click-8100168-11202973-1477921724000';">Buy WebHosting $11.88/Year</a>
+    </li>
+  </ul>
+
+  <h4>Getting Started With Bootstrap</h4>
+  
+  <ul>
+    <li><a href="/what-is-bootstrap">what is bootstrap</a></li>
+    <li><a href="/bootstrap3-features">Bootstrap 3 Features</a></li>
+    <li><a href="/getting-started">getting started with Bootstrap</a></li>
+    <!-- <li><a href="/bootstrap-template/">bootstrap template</a></li>
+    <li><a href="/bootstrap-3/">bootstrap 3</a></li>
+    <li><a href="/bootstrap-3-tutorial/">bootstrap 3 tutorial</a></li> -->
+  </ul>
+
+<!-- <h3>Bootstrap Tutorials</h3>
+<ul>
+  <li><a href="/learn-bootstrap/">learn bootstrap</a></li>
+  <li><a href="/bootstrap-tutorial-pdf/">bootstrap tutorial pdf</a></li>
+  <li><a href="/how-to-use-bootstrap/">how to use bootstrap</a></li>
+  <li><a href="/bootstrap-sample/">bootstrap sample</a></li>
+  <li><a href="/bootstrap-layout-examples/">bootstrap layout examples</a></li>
+  <li><a href="/bootstrap-layout/">bootstrap layout</a></li>
+  <li><a href="/bootstrap-css-tutorial/">bootstrap css tutorial</a></li>
+  <li><a href="/bootstrap-min-js/">bootstrap min js</a></li>
+  <li><a href="/bootstrap-js-tutorial/">bootstrap js tutorial</a></li>
+  <li><a href="/bootstrap-getting-started/">bootstrap getting started</a></li>
+  <li><a href="/install-bootstrap/">install bootstrap</a></li>
+  <li><a href="/bootstrap-page/">bootstrap page</a></li>
+  <li><a href="/bootstrap-tutorial-for-beginners/">bootstrap tutorial for beginners</a></li>
+  <li><a href="/tutorial-bootstrap/">tutorial bootstrap</a></li>
+  <li><a href="/html-bootstrap/">html bootstrap</a></li>
+  <li><a href="/download bootstrap template/">download bootstrap template</a></li>
+  <li><a href="/using-bootstrap/">using bootstrap</a></li>
+  <li><a href="/bootstrap-video/">bootstrap video</a></li>
+  <li><a href="/bootstrap-less/">bootstrap less</a></li>
+  <li><a href="/simple-bootstrap-template/">simple bootstrap template</a></li>
+  <li><a href="/bootstrap-website/">bootstrap website</a></li>
+  <li><a href="/bootstrap-lightbox/">bootstrap lightbox</a></li>
+  <li><a href="/bootstrap-video-player/">bootstrap video player</a></li>
+  <li><a href="/bootstrap-plugins/">bootstrap plugins</a></li>
+  <li><a href="/bootstrap-notification/">bootstrap notification</a></li>
+</ul> -->
+  
+</aside>
+<hr>
+
+      </div> <!-- ##row -->
+    </div> <!-- ##container -->
+
+    <footer class="site-footer">
+
+  <div class="container">
+    <div class="row">
+
+      <h2 class="footer-heading col-md-12">
+        <a href="/">BootstrapTutorialHub.com</a>
+      </h2>
+
+      <div class="col-md-3">
+        <ul class="contact-list">
+          <li>
+            
+              Created by Tahir Taous (@TahirTaous)
+            
+            </li>
+            
+        </ul>
+      </div>
+      
+      <div class="col-md-3">
+        <ul class="social-media-list">
+          
+      
+          
+          <li>
+            <a href="https://twitter.com/TahirTaous"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">TahirTaous</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="col-md-6">
+        <p>Step by step Bootstrap tutorials for beginners and advance users to create powerful responsive and mobile friendly websites.
+</p>
+      </div>
+
+    </div> <!-- ##row -->
+  </div> <!-- ##container -->
+
+</footer> <!-- ##footer -->
+
+
+  </body>
+
+</html>
