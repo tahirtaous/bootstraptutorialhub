@@ -2,7 +2,7 @@
 layout: post
 title: How To Add Bootstrap Styling to MailChimp Sign up Forms?
 date: 2016-11-13 10:49:54 +0500
-categories: bootstrap
+categories: bootstrap 3
 image: /assets/images/mailchimp-bootstrap-forms.png
 excerpt: Learn how to create a naked MailChimp form (without styles) and style it with Bootstrap forms classes.
 ---

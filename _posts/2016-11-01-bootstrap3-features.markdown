@@ -2,7 +2,7 @@
 layout: post
 title: A brief introduction to bootstrap 3 framework features
 date: 2016-11-11 10:55:54 +0500
-categories: bootstrap
+categories: bootstrap 3
 image: /assets/images/bootstrap3-features.png
 excerpt: In this Bootstrap tutorial, you will learn how to get started with Bootstrap framework.
 ---
